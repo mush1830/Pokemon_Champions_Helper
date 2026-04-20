@@ -2,11 +2,13 @@
 1. 패키지 설치
 
 pip install -r requirements.txt
+
 2. 전체 포켓몬 데이터 수집 (권장, ~10분 소요)
 
 python scripts/fetch_pokeapi.py
 # 또는 1~3세대만 빠르게:
 python scripts/fetch_pokeapi.py --max 386
+
 3. ROI 영역 설정 (처음 1회)
 
 python scripts/roi_selector.py
