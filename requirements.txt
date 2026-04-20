@@ -1,0 +1,10 @@
+easyocr
+mss
+Pillow
+opencv-python
+rapidfuzz
+keyboard
+requests
+beautifulsoup4
+selenium
+webdriver-manager

@@ -1,0 +1,29 @@
+{
+  "hotkey": "F9",
+  "my_pokemon_roi": {
+    "monitor": 1,
+    "top": 600,
+    "left": 50,
+    "width": 350,
+    "height": 60
+  },
+  "opponent_pokemon_roi": {
+    "monitor": 1,
+    "top": 100,
+    "left": 900,
+    "width": 350,
+    "height": 60
+  },
+  "overlay": {
+    "x": 10,
+    "y": 10,
+    "width": 340,
+    "height": 190,
+    "opacity": 0.88,
+    "click_through": true
+  },
+  "ocr": {
+    "language": ["ko"],
+    "preprocessing": true
+  }
+}
