@@ -28,3 +28,12 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Debug captures
+debug/
+
+# Claude settings
+.claude/
+
+# ROI configured flag
+.roi_configured
