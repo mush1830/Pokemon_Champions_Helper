@@ -11,7 +11,8 @@
       "Bash(python -c \"import json; d=json.load\\(open\\('data/pokemon_data.json',encoding='utf-8'\\)\\); first=list\\(d.values\\(\\)\\)[0]; print\\(list\\(first.keys\\(\\)\\)\\); print\\(first\\)\")",
       "Bash(python -c \"import json; d=json.load\\(open\\('data/pokemon_data.json',encoding='utf-8'\\)\\); first=list\\(d.items\\(\\)\\)[0]; print\\(first\\)\")",
       "WebFetch(domain:pokeapi.co)",
-      "Bash(python -c ' *)"
+      "Bash(python -c ' *)",
+      "Bash(sort -t'|' -k2 -rn)"
     ]
   }
 }
