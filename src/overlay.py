@@ -18,6 +18,7 @@ FONT = "Malgun Gothic"
 class OverlayWindow:
     def __init__(self, config: dict):
         self.config = config
+        self._scan_callback = None
         self.root = tk.Tk()
         self._build_window()
         self._build_ui()
@@ -30,57 +31,119 @@ class OverlayWindow:
 
         x = self.config.get("x", 10)
         y = self.config.get("y", 10)
-        w = self.config.get("width", 340)
-        h = self.config.get("height", 190)
+        w = self.config.get("width", 510)
+        h = self.config.get("height", 360)
         self.root.geometry(f"{w}x{h}+{x}+{y}")
         self.root.configure(bg=BG)
 
-        # Allow dragging the overlay
         self.root.bind("<ButtonPress-1>", self._on_drag_start)
         self.root.bind("<B1-Motion>", self._on_drag)
 
+        self._menu = tk.Menu(self.root, tearoff=0)
+        self._menu.add_command(label="종료", command=self.root.destroy)
+        self.root.bind("<ButtonPress-3>", lambda e: self._menu.tk_popup(e.x_root, e.y_root))
+
     def _build_ui(self):
-        pad = {"padx": 10}
+        pad = {"padx": 14}
+
+        # 타이틀 행
+        title_row = tk.Frame(self.root, bg=BG)
+        title_row.pack(fill="x", pady=(10, 4))
 
         tk.Label(
-            self.root, text="PokeOCR  Speed Check",
+            title_row, text="PokeOCR  Speed Check",
             bg=BG, fg=COLOR_TITLE,
-            font=(FONT, 10, "bold")
-        ).pack(pady=(8, 2), **pad, anchor="w")
+            font=(FONT, 13, "bold")
+        ).pack(side="left", padx=14)
 
-        tk.Frame(self.root, bg="#30363d", height=1).pack(fill="x", padx=8)
+        tk.Button(
+            title_row, text="✕",
+            bg="#3a1a1a", fg="#ff5555",
+            activebackground="#ff5555", activeforeground="white",
+            font=(FONT, 11, "bold"),
+            relief="flat", bd=0, padx=8, pady=0,
+            cursor="hand2",
+            command=self.root.destroy,
+        ).pack(side="right", padx=8)
 
-        self.my_label = tk.Label(
-            self.root, text="내 포켓몬: -",
-            bg=BG, fg=COLOR_MY, font=(FONT, 10), anchor="w"
-        )
-        self.my_label.pack(pady=(6, 0), **pad, fill="x")
+        tk.Frame(self.root, bg="#30363d", height=1).pack(fill="x", padx=10)
 
+        # 상대 포켓몬 (먼저)
         self.opp_label = tk.Label(
             self.root, text="상대 포켓몬: -",
-            bg=BG, fg=COLOR_OPP, font=(FONT, 10), anchor="w"
+            bg=BG, fg=COLOR_OPP, font=(FONT, 14, "bold"), anchor="w"
         )
-        self.opp_label.pack(pady=(2, 0), **pad, fill="x")
+        self.opp_label.pack(pady=(10, 0), **pad, fill="x")
 
-        tk.Frame(self.root, bg="#30363d", height=1).pack(fill="x", padx=8, pady=6)
+        self.opp_weak_label = tk.Label(
+            self.root, text="  약점: -",
+            bg=BG, fg="#8b949e", font=(FONT, 12), anchor="w",
+            wraplength=480, justify="left"
+        )
+        self.opp_weak_label.pack(pady=(2, 0), **pad, fill="x")
+
+        tk.Frame(self.root, bg="#21262d", height=1).pack(fill="x", padx=10, pady=8)
+
+        # 내 포켓몬
+        self.my_label = tk.Label(
+            self.root, text="내 포켓몬: -",
+            bg=BG, fg=COLOR_MY, font=(FONT, 14, "bold"), anchor="w"
+        )
+        self.my_label.pack(pady=(0, 0), **pad, fill="x")
+
+        self.my_weak_label = tk.Label(
+            self.root, text="  약점: -",
+            bg=BG, fg="#8b949e", font=(FONT, 12), anchor="w",
+            wraplength=480, justify="left"
+        )
+        self.my_weak_label.pack(pady=(2, 0), **pad, fill="x")
+
+        tk.Frame(self.root, bg="#30363d", height=1).pack(fill="x", padx=10, pady=8)
 
         self.result_label = tk.Label(
             self.root, text="선공: -",
-            bg=BG, fg=COLOR_RESULT, font=(FONT, 12, "bold"), anchor="w"
+            bg=BG, fg=COLOR_RESULT, font=(FONT, 16, "bold"), anchor="w"
         )
         self.result_label.pack(**pad, fill="x")
 
         self.ocr_label = tk.Label(
             self.root, text="OCR: -",
-            bg=BG, fg="#484f58", font=(FONT, 7), anchor="w"
+            bg=BG, fg="#484f58", font=(FONT, 9), anchor="w"
         )
         self.ocr_label.pack(**pad, fill="x")
 
+        self.scan_btn = tk.Button(
+            self.root, text="확인",
+            bg="#1f6feb", fg="white",
+            activebackground="#388bfd", activeforeground="white",
+            disabledforeground="#555555",
+            font=(FONT, 13, "bold"),
+            relief="flat", bd=0, pady=7,
+            cursor="hand2",
+            command=self._on_scan_click,
+        )
+        self.scan_btn.pack(fill="x", padx=10, pady=(8, 4))
+
         self.status_label = tk.Label(
             self.root, text="초기화 중...",
-            bg=BG, fg=COLOR_STATUS, font=(FONT, 8), anchor="w"
+            bg=BG, fg=COLOR_STATUS, font=(FONT, 10), anchor="w"
         )
-        self.status_label.pack(side="bottom", pady=(0, 6), **pad, fill="x")
+        self.status_label.pack(side="bottom", pady=(0, 8), **pad, fill="x")
+
+    def set_scan_callback(self, fn):
+        self._scan_callback = fn
+
+    def _on_scan_click(self):
+        if self._scan_callback:
+            self._scan_callback()
+
+    def set_scan_enabled(self, enabled: bool):
+        def _update():
+            if enabled:
+                self.scan_btn.config(state="normal", text="확인", bg="#1f6feb")
+            else:
+                self.scan_btn.config(state="disabled", text="스캔 중...", bg="#2a2a3a")
+        self.root.after(0, _update)
 
     def _on_drag_start(self, event):
         self._drag_x = event.x
@@ -108,17 +171,36 @@ class OverlayWindow:
         except Exception as e:
             print(f"[경고] 클릭 스루 설정 실패: {e}")
 
+    @staticmethod
+    def _fmt_speed(speed, megas: list) -> str:
+        base = str(speed) if speed is not None else "?"
+        if not megas:
+            return base
+        parts = [base]
+        for m in megas:
+            slug = m["slug"]
+            if slug.endswith("-mega-x"):
+                label = "메가X"
+            elif slug.endswith("-mega-y"):
+                label = "메가Y"
+            else:
+                label = "메가"
+            parts.append(f"{label} {m['speed']}")
+        return " / ".join(parts)
+
     def update(self, result: "ComparisonResult"):
         def _update():
-            my_spd = result.my_speed if result.my_speed is not None else "?"
-            opp_spd = result.opp_speed if result.opp_speed is not None else "?"
+            my_spd_txt = self._fmt_speed(result.my_speed, result.my_megas)
+            opp_spd_txt = self._fmt_speed(result.opp_speed, result.opp_megas)
 
-            self.my_label.config(
-                text=f"내 포켓몬: {result.my_name or '인식 실패'} (Spd {my_spd})"
-            )
             self.opp_label.config(
-                text=f"상대 포켓몬: {result.opp_name or '인식 실패'} (Spd {opp_spd})"
+                text=f"상대 포켓몬: {result.opp_name or '인식 실패'} (Spd {opp_spd_txt})"
             )
+            self.opp_weak_label.config(text=f"  약점: {result.opp_weaknesses}")
+            self.my_label.config(
+                text=f"내 포켓몬: {result.my_name or '인식 실패'} (Spd {my_spd_txt})"
+            )
+            self.my_weak_label.config(text=f"  약점: {result.my_weaknesses}")
 
             if result.faster == "my":
                 txt = f"선공: {result.my_name}  (내가 빠름)"
@@ -134,11 +216,9 @@ class OverlayWindow:
                 clr = COLOR_STATUS
 
             self.result_label.config(text=txt, fg=clr)
-
-            ocr_info = (
-                f"OCR: [{result.my_raw_ocr[:15]}] / [{result.opp_raw_ocr[:15]}]"
+            self.ocr_label.config(
+                text=f"OCR: [{result.my_raw_ocr[:15]}] / [{result.opp_raw_ocr[:15]}]"
             )
-            self.ocr_label.config(text=ocr_info)
 
         self.root.after(0, _update)
 

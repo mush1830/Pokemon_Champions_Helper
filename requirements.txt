@@ -1,4 +1,5 @@
-easyocr
+chandra-ocr[hf]
+torch
 mss
 Pillow
 opencv-python

@@ -33,22 +33,45 @@ def get_json(url: str, retries: int = 3) -> dict | None:
     return None
 
 
+def _fetch_mega_forms(species: dict) -> list[dict]:
+    """species varieties에서 메가진화 폼을 찾아 스피드/타입/이름 반환."""
+    megas = []
+    for variety in species.get("varieties", []):
+        slug = variety["pokemon"]["name"]
+        if "mega" not in slug:
+            continue
+        poke = get_json(variety["pokemon"]["url"])
+        if not poke:
+            continue
+        speed = next((s["base_stat"] for s in poke["stats"] if s["stat"]["name"] == "speed"), None)
+        types = [t["type"]["name"] for t in sorted(poke["types"], key=lambda x: x["slot"])]
+
+        # 폼 엔드포인트에서 한글 이름 시도
+        form = get_json(f"{API_BASE}/pokemon-form/{slug}/")
+        ko_name = None
+        if form:
+            for n in form.get("names", []):
+                if n["language"]["name"] == "ko":
+                    ko_name = n["name"]
+                    break
+
+        if speed is not None:
+            megas.append({"slug": slug, "ko_name": ko_name, "speed": speed, "types": types})
+        time.sleep(0.05)
+    return megas
+
+
 def fetch_all(max_pokemon: int) -> dict:
     pokemon_data: dict = {}
 
     for i in range(1, max_pokemon + 1):
-        # 기본 스탯 조회
         poke = get_json(f"{API_BASE}/pokemon/{i}")
         if not poke:
             continue
 
-        speed = None
-        for stat in poke["stats"]:
-            if stat["stat"]["name"] == "speed":
-                speed = stat["base_stat"]
-                break
+        speed = next((s["base_stat"] for s in poke["stats"] if s["stat"]["name"] == "speed"), None)
+        types = [t["type"]["name"] for t in sorted(poke["types"], key=lambda x: x["slot"])]
 
-        # 한글 이름 조회
         species = get_json(poke["species"]["url"])
         if not species:
             continue
@@ -60,18 +83,61 @@ def fetch_all(max_pokemon: int) -> dict:
                 break
 
         if kor_name and speed is not None:
-            pokemon_data[kor_name] = {
-                "speed": speed,
-                "national_no": i,
-            }
+            entry = {"speed": speed, "national_no": i, "types": types}
+            megas = _fetch_mega_forms(species)
+            if megas:
+                entry["megas"] = megas
+            pokemon_data[kor_name] = entry
 
         if i % 50 == 0 or i == max_pokemon:
             print(f"  진행: {i}/{max_pokemon}  ({len(pokemon_data)}개 수집)")
 
-        # API 부하 방지
         time.sleep(0.05)
 
     return pokemon_data
+
+
+def add_megas_to_existing(data_path: Path) -> dict:
+    """기존 데이터에 megas 필드만 추가."""
+    with open(data_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    total = len(data)
+    for idx, (name, entry) in enumerate(data.items(), 1):
+        no = entry.get("national_no")
+        if not no:
+            continue
+        species = get_json(f"{API_BASE}/pokemon-species/{no}/")
+        if species:
+            megas = _fetch_mega_forms(species)
+            if megas:
+                entry["megas"] = megas
+                print(f"  [{name}] 메가진화 {len(megas)}개 추가")
+        if idx % 100 == 0 or idx == total:
+            print(f"  진행: {idx}/{total}")
+        time.sleep(0.05)
+
+    return data
+
+
+def add_types_to_existing(data_path: Path) -> dict:
+    """기존 데이터에 types 필드만 추가."""
+    with open(data_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    total = len(data)
+    for idx, (name, entry) in enumerate(data.items(), 1):
+        no = entry.get("national_no")
+        if not no:
+            continue
+        poke = get_json(f"{API_BASE}/pokemon/{no}")
+        if poke:
+            entry["types"] = [t["type"]["name"] for t in sorted(poke["types"], key=lambda x: x["slot"])]
+        if idx % 50 == 0 or idx == total:
+            print(f"  진행: {idx}/{total}")
+        time.sleep(0.05)
+
+    return data
 
 
 def main():
@@ -84,14 +150,34 @@ def main():
         "--merge", action="store_true",
         help="기존 데이터에 병합 (기본: 덮어쓰기)"
     )
+    parser.add_argument(
+        "--add-types", action="store_true",
+        help="기존 데이터에 types 필드만 추가 (빠름)"
+    )
+    parser.add_argument(
+        "--add-megas", action="store_true",
+        help="기존 데이터에 메가진화 데이터만 추가"
+    )
     args = parser.parse_args()
 
-    print(f"포켓몬 데이터 수집 시작 (1~{args.max}번)")
-    print("완료까지 수분이 걸릴 수 있습니다...\n")
+    if args.add_megas:
+        if not OUTPUT.exists():
+            print("[오류] 기존 데이터 없음.")
+            return
+        print("메가진화 데이터 추가 중...\n")
+        new_data = add_megas_to_existing(OUTPUT)
+    elif args.add_types:
+        if not OUTPUT.exists():
+            print("[오류] 기존 데이터 없음. 먼저 전체 수집을 실행하세요.")
+            return
+        print(f"타입 데이터 추가 중...\n")
+        new_data = add_types_to_existing(OUTPUT)
+    else:
+        print(f"포켓몬 데이터 수집 시작 (1~{args.max}번)")
+        print("완료까지 수분이 걸릴 수 있습니다...\n")
+        new_data = fetch_all(args.max)
 
-    new_data = fetch_all(args.max)
-
-    if args.merge and OUTPUT.exists():
+    if args.merge and not args.add_types and not args.add_megas and OUTPUT.exists():
         with open(OUTPUT, "r", encoding="utf-8") as f:
             existing = json.load(f)
         existing.update(new_data)

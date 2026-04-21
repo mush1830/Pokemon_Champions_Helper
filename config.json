@@ -2,28 +2,31 @@
   "hotkey": "F9",
   "my_pokemon_roi": {
     "monitor": 1,
-    "top": 600,
-    "left": 50,
-    "width": 350,
-    "height": 60
+    "left": 141,
+    "top": 938,
+    "width": 232,
+    "height": 32
   },
   "opponent_pokemon_roi": {
     "monitor": 1,
-    "top": 100,
-    "left": 900,
-    "width": 350,
-    "height": 60
+    "left": 1593,
+    "top": 51,
+    "width": 216,
+    "height": 40
   },
   "overlay": {
     "x": 10,
     "y": 10,
-    "width": 340,
-    "height": 190,
+    "width": 510,
+    "height": 360,
     "opacity": 0.88,
-    "click_through": true
+    "click_through": false
   },
   "ocr": {
-    "language": ["ko"],
-    "preprocessing": true
+    "language": [
+      "ko"
+    ],
+    "preprocessing": true,
+    "debug": true
   }
 }

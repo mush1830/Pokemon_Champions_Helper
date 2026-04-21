@@ -1,4 +1,5 @@
 import json
+import signal
 import sys
 import threading
 from pathlib import Path
@@ -49,11 +50,13 @@ def main():
 
     def init_ocr():
         overlay.set_status("OCR 엔진 초기화 중... (첫 실행시 모델 다운로드)")
+        overlay.set_scan_enabled(False)
         try:
             ocr_engine[0] = OCREngine(config["ocr"])
             ocr_ready.set()
-            overlay.set_status(f"준비 완료  |  단축키: {config['hotkey']}  |  Ctrl+Shift+Q 종료")
-            print(f"[정보] OCR 초기화 완료. 단축키 [{config['hotkey']}] 로 스캔하세요.")
+            overlay.set_scan_enabled(True)
+            overlay.set_status("준비 완료  |  Ctrl+Shift+Q 종료")
+            print("[정보] OCR 초기화 완료.")
         except Exception as e:
             overlay.set_status(f"OCR 초기화 오류: {e}")
             print(f"[오류] OCR 초기화 실패: {e}")
@@ -65,8 +68,8 @@ def main():
             opp_img = capture.capture_roi(config["opponent_pokemon_roi"])
 
             overlay.set_status("OCR 실행 중...")
-            my_raw = ocr_engine[0].recognize(my_img)
-            opp_raw = ocr_engine[0].recognize(opp_img)
+            my_raw = ocr_engine[0].recognize(my_img, label="my")
+            opp_raw = ocr_engine[0].recognize(opp_img, label="opp")
             print(f"[OCR] 내: '{my_raw}'  /  상대: '{opp_raw}'")
 
             my_name = matcher.find_best_match(my_raw)
@@ -75,21 +78,47 @@ def main():
 
             result = comparator.compare(my_name, opp_name, my_raw, opp_raw)
             overlay.update(result)
-            overlay.set_status(f"완료  |  단축키: {config['hotkey']}")
+            overlay.set_status("완료  |  Ctrl+Shift+Q 종료")
         except Exception as e:
-            overlay.set_status(f"오류: {e}")
-            print(f"[오류] 처리 중 예외: {e}")
+            err_type = type(e).__name__
+            overlay.set_status(f"오류 [{err_type}]: {e}")
+            print(f"[오류] 처리 중 예외 ({err_type}): {e}")
         finally:
             is_scanning.clear()
+            overlay.set_scan_enabled(True)
 
-    def on_hotkey():
+    SCAN_TIMEOUT = 30
+
+    def on_scan():
         if not ocr_ready.is_set() or is_scanning.is_set():
             return
         is_scanning.set()
-        threading.Thread(target=process_and_update, daemon=True).start()
+        overlay.set_scan_enabled(False)
 
-    keyboard.add_hotkey(config["hotkey"], on_hotkey)
-    keyboard.add_hotkey("ctrl+shift+q", lambda: sys.exit(0))
+        def on_timeout():
+            if is_scanning.is_set():
+                is_scanning.clear()
+                overlay.set_scan_enabled(True)
+                overlay.set_status("스캔 시간 초과 (30초) — 다시 시도하세요")
+                print("[경고] 스캔 30초 초과로 자동 취소됨")
+
+        timer = threading.Timer(SCAN_TIMEOUT, on_timeout)
+        timer.daemon = True
+        timer.start()
+
+        def run():
+            try:
+                process_and_update()
+            finally:
+                timer.cancel()
+
+        threading.Thread(target=run, daemon=True).start()
+
+    overlay.set_scan_callback(on_scan)
+    keyboard.add_hotkey("ctrl+shift+q", overlay.root.destroy)
+
+    # Ctrl+C 정상 동작
+    signal.signal(signal.SIGINT, lambda *_: overlay.root.after(0, overlay.root.destroy))
 
     threading.Thread(target=init_ocr, daemon=True).start()
     overlay.run()

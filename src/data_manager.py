@@ -25,5 +25,13 @@ class PokemonDataManager:
         entry = self.get_pokemon(name)
         return entry.get("speed") if entry else None
 
+    def get_types(self, name: str) -> Optional[list[str]]:
+        entry = self.get_pokemon(name)
+        return entry.get("types") if entry else None
+
+    def get_megas(self, name: str) -> list[dict]:
+        entry = self.get_pokemon(name)
+        return entry.get("megas", []) if entry else []
+
     def total(self) -> int:
         return len(self.data)

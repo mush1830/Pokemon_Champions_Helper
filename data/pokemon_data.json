@@ -1,92 +1,8742 @@
 {
-  "피카츄": {"speed": 90, "national_no": 25},
-  "라이츄": {"speed": 110, "national_no": 26},
-  "이상해씨": {"speed": 45, "national_no": 1},
-  "이상해풀": {"speed": 60, "national_no": 2},
-  "이상해꽃": {"speed": 80, "national_no": 3},
-  "파이리": {"speed": 65, "national_no": 4},
-  "리자드": {"speed": 80, "national_no": 5},
-  "리자몽": {"speed": 100, "national_no": 6},
-  "꼬부기": {"speed": 43, "national_no": 7},
-  "어니부기": {"speed": 58, "national_no": 8},
-  "거북왕": {"speed": 78, "national_no": 9},
-  "잠만보": {"speed": 30, "national_no": 143},
-  "뮤": {"speed": 100, "national_no": 151},
-  "뮤츠": {"speed": 130, "national_no": 150},
-  "루기아": {"speed": 110, "national_no": 249},
-  "호오": {"speed": 90, "national_no": 250},
-  "라이코": {"speed": 115, "national_no": 243},
-  "앤테이": {"speed": 100, "national_no": 244},
-  "스이쿤": {"speed": 85, "national_no": 245},
-  "치코리타": {"speed": 70, "national_no": 152},
-  "브케인": {"speed": 65, "national_no": 155},
-  "리아코": {"speed": 71, "national_no": 158},
-  "나무킹": {"speed": 120, "national_no": 254},
-  "번치코": {"speed": 80, "national_no": 257},
-  "대짱이": {"speed": 60, "national_no": 260},
-  "가이오가": {"speed": 90, "national_no": 382},
-  "그란돈": {"speed": 90, "national_no": 383},
-  "레쿠쟈": {"speed": 95, "national_no": 384},
-  "라티아스": {"speed": 110, "national_no": 380},
-  "라티오스": {"speed": 110, "national_no": 381},
-  "루카리오": {"speed": 90, "national_no": 448},
-  "한카리아스": {"speed": 102, "national_no": 445},
-  "엔페르나페": {"speed": 108, "national_no": 392},
-  "완다": {"speed": 125, "national_no": 461},
-  "맘모꾸리": {"speed": 80, "national_no": 473},
-  "로즈레이드": {"speed": 90, "national_no": 407},
-  "입치트": {"speed": 80, "national_no": 468},
-  "밀로틱": {"speed": 81, "national_no": 350},
-  "코터스": {"speed": 20, "national_no": 324},
-  "전기뱀": {"speed": 130, "national_no": 135},
-  "에스피온": {"speed": 110, "national_no": 196},
-  "블래키": {"speed": 65, "national_no": 197},
-  "님피아": {"speed": 60, "national_no": 700},
-  "개굴닌자": {"speed": 122, "national_no": 658},
-  "카푸꼬꼬꼭": {"speed": 130, "national_no": 785},
-  "카푸나비나": {"speed": 95, "national_no": 786},
-  "카푸브루루": {"speed": 75, "national_no": 787},
-  "카푸느지느": {"speed": 85, "national_no": 788},
-  "마스카나": {"speed": 123, "national_no": 908},
-  "라우드본": {"speed": 72, "national_no": 909},
-  "틴카톤": {"speed": 94, "national_no": 959},
-  "격투왕": {"speed": 55, "national_no": 68},
-  "망나뇽": {"speed": 80, "national_no": 149},
-  "보만다": {"speed": 100, "national_no": 373},
-  "메타그로스": {"speed": 70, "national_no": 376},
-  "디아루가": {"speed": 90, "national_no": 483},
-  "펄기아": {"speed": 100, "national_no": 484},
-  "기라티나": {"speed": 90, "national_no": 487},
-  "아르세우스": {"speed": 120, "national_no": 493},
-  "조로아크": {"speed": 105, "national_no": 571},
-  "샹델라": {"speed": 80, "national_no": 609},
-  "조루아": {"speed": 65, "national_no": 570},
-  "레시라무": {"speed": 90, "national_no": 643},
-  "제크로무": {"speed": 90, "national_no": 644},
-  "큐레무": {"speed": 95, "national_no": 646},
-  "테라키온": {"speed": 108, "national_no": 639},
-  "비리디온": {"speed": 108, "national_no": 640},
-  "코바르온": {"speed": 108, "national_no": 638},
-  "게노세크트": {"speed": 99, "national_no": 649},
-  "제르네아스": {"speed": 99, "national_no": 716},
-  "이벨타르": {"speed": 99, "national_no": 717},
-  "지가르데": {"speed": 95, "national_no": 718},
-  "디안시": {"speed": 50, "national_no": 719},
-  "후파": {"speed": 103, "national_no": 720},
-  "볼케니온": {"speed": 70, "national_no": 721},
-  "솔가레오": {"speed": 97, "national_no": 791},
-  "루나아라": {"speed": 97, "national_no": 792},
-  "네크로즈마": {"speed": 79, "national_no": 800},
-  "마기아나": {"speed": 65, "national_no": 801},
-  "베벨돈": {"speed": 60, "national_no": 804},
-  "코스모그": {"speed": 37, "national_no": 789},
-  "재규어맨": {"speed": 91, "national_no": 814},
-  "드래펄트": {"speed": 142, "national_no": 887},
-  "자시안": {"speed": 138, "national_no": 888},
-  "자마젠타": {"speed": 138, "national_no": 889},
-  "에터너투스": {"speed": 130, "national_no": 890},
-  "버드렉스": {"speed": 100, "national_no": 898},
-  "이얏호": {"speed": 135, "national_no": 905},
-  "워글": {"speed": 91, "national_no": 628},
-  "스펙텀": {"speed": 90, "national_no": 282}
+  "이상해씨": {
+    "speed": 45,
+    "national_no": 1,
+    "types": [
+      "grass",
+      "poison"
+    ]
+  },
+  "이상해풀": {
+    "speed": 60,
+    "national_no": 2,
+    "types": [
+      "grass",
+      "poison"
+    ]
+  },
+  "이상해꽃": {
+    "speed": 80,
+    "national_no": 3,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "megas": [
+      {
+        "slug": "venusaur-mega",
+        "ko_name": null,
+        "speed": 80,
+        "types": [
+          "grass",
+          "poison"
+        ]
+      }
+    ]
+  },
+  "파이리": {
+    "speed": 65,
+    "national_no": 4,
+    "types": [
+      "fire"
+    ]
+  },
+  "리자드": {
+    "speed": 80,
+    "national_no": 5,
+    "types": [
+      "fire"
+    ]
+  },
+  "리자몽": {
+    "speed": 100,
+    "national_no": 6,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "megas": [
+      {
+        "slug": "charizard-mega-x",
+        "ko_name": null,
+        "speed": 100,
+        "types": [
+          "fire",
+          "dragon"
+        ]
+      },
+      {
+        "slug": "charizard-mega-y",
+        "ko_name": null,
+        "speed": 100,
+        "types": [
+          "fire",
+          "flying"
+        ]
+      }
+    ]
+  },
+  "꼬부기": {
+    "speed": 43,
+    "national_no": 7,
+    "types": [
+      "water"
+    ]
+  },
+  "어니부기": {
+    "speed": 58,
+    "national_no": 8,
+    "types": [
+      "water"
+    ]
+  },
+  "거북왕": {
+    "speed": 78,
+    "national_no": 9,
+    "types": [
+      "water"
+    ],
+    "megas": [
+      {
+        "slug": "blastoise-mega",
+        "ko_name": null,
+        "speed": 78,
+        "types": [
+          "water"
+        ]
+      }
+    ]
+  },
+  "캐터피": {
+    "speed": 45,
+    "national_no": 10,
+    "types": [
+      "bug"
+    ]
+  },
+  "단데기": {
+    "speed": 30,
+    "national_no": 11,
+    "types": [
+      "bug"
+    ]
+  },
+  "버터플": {
+    "speed": 70,
+    "national_no": 12,
+    "types": [
+      "bug",
+      "flying"
+    ]
+  },
+  "뿔충이": {
+    "speed": 50,
+    "national_no": 13,
+    "types": [
+      "bug",
+      "poison"
+    ]
+  },
+  "딱충이": {
+    "speed": 35,
+    "national_no": 14,
+    "types": [
+      "bug",
+      "poison"
+    ]
+  },
+  "독침붕": {
+    "speed": 75,
+    "national_no": 15,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "megas": [
+      {
+        "slug": "beedrill-mega",
+        "ko_name": null,
+        "speed": 145,
+        "types": [
+          "bug",
+          "poison"
+        ]
+      }
+    ]
+  },
+  "구구": {
+    "speed": 56,
+    "national_no": 16,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "피죤": {
+    "speed": 71,
+    "national_no": 17,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "피죤투": {
+    "speed": 101,
+    "national_no": 18,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "megas": [
+      {
+        "slug": "pidgeot-mega",
+        "ko_name": null,
+        "speed": 121,
+        "types": [
+          "normal",
+          "flying"
+        ]
+      }
+    ]
+  },
+  "꼬렛": {
+    "speed": 72,
+    "national_no": 19,
+    "types": [
+      "normal"
+    ]
+  },
+  "레트라": {
+    "speed": 97,
+    "national_no": 20,
+    "types": [
+      "normal"
+    ]
+  },
+  "깨비참": {
+    "speed": 70,
+    "national_no": 21,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "깨비드릴조": {
+    "speed": 100,
+    "national_no": 22,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "아보": {
+    "speed": 55,
+    "national_no": 23,
+    "types": [
+      "poison"
+    ]
+  },
+  "아보크": {
+    "speed": 80,
+    "national_no": 24,
+    "types": [
+      "poison"
+    ]
+  },
+  "피카츄": {
+    "speed": 90,
+    "national_no": 25,
+    "types": [
+      "electric"
+    ]
+  },
+  "라이츄": {
+    "speed": 110,
+    "national_no": 26,
+    "types": [
+      "electric"
+    ],
+    "megas": [
+      {
+        "slug": "raichu-mega-x",
+        "ko_name": null,
+        "speed": 110,
+        "types": [
+          "electric"
+        ]
+      },
+      {
+        "slug": "raichu-mega-y",
+        "ko_name": null,
+        "speed": 130,
+        "types": [
+          "electric"
+        ]
+      }
+    ]
+  },
+  "모래두지": {
+    "speed": 40,
+    "national_no": 27,
+    "types": [
+      "ground"
+    ]
+  },
+  "고지": {
+    "speed": 65,
+    "national_no": 28,
+    "types": [
+      "ground"
+    ]
+  },
+  "니드런♀": {
+    "speed": 41,
+    "national_no": 29,
+    "types": [
+      "poison"
+    ]
+  },
+  "니드리나": {
+    "speed": 56,
+    "national_no": 30,
+    "types": [
+      "poison"
+    ]
+  },
+  "니드퀸": {
+    "speed": 76,
+    "national_no": 31,
+    "types": [
+      "poison",
+      "ground"
+    ]
+  },
+  "니드런♂": {
+    "speed": 50,
+    "national_no": 32,
+    "types": [
+      "poison"
+    ]
+  },
+  "니드리노": {
+    "speed": 65,
+    "national_no": 33,
+    "types": [
+      "poison"
+    ]
+  },
+  "니드킹": {
+    "speed": 85,
+    "national_no": 34,
+    "types": [
+      "poison",
+      "ground"
+    ]
+  },
+  "삐삐": {
+    "speed": 35,
+    "national_no": 35,
+    "types": [
+      "fairy"
+    ]
+  },
+  "픽시": {
+    "speed": 60,
+    "national_no": 36,
+    "types": [
+      "fairy"
+    ],
+    "megas": [
+      {
+        "slug": "clefable-mega",
+        "ko_name": null,
+        "speed": 70,
+        "types": [
+          "fairy",
+          "flying"
+        ]
+      }
+    ]
+  },
+  "식스테일": {
+    "speed": 65,
+    "national_no": 37,
+    "types": [
+      "fire"
+    ]
+  },
+  "나인테일": {
+    "speed": 100,
+    "national_no": 38,
+    "types": [
+      "fire"
+    ]
+  },
+  "푸린": {
+    "speed": 20,
+    "national_no": 39,
+    "types": [
+      "normal",
+      "fairy"
+    ]
+  },
+  "푸크린": {
+    "speed": 45,
+    "national_no": 40,
+    "types": [
+      "normal",
+      "fairy"
+    ]
+  },
+  "주뱃": {
+    "speed": 55,
+    "national_no": 41,
+    "types": [
+      "poison",
+      "flying"
+    ]
+  },
+  "골뱃": {
+    "speed": 90,
+    "national_no": 42,
+    "types": [
+      "poison",
+      "flying"
+    ]
+  },
+  "뚜벅쵸": {
+    "speed": 30,
+    "national_no": 43,
+    "types": [
+      "grass",
+      "poison"
+    ]
+  },
+  "냄새꼬": {
+    "speed": 40,
+    "national_no": 44,
+    "types": [
+      "grass",
+      "poison"
+    ]
+  },
+  "라플레시아": {
+    "speed": 50,
+    "national_no": 45,
+    "types": [
+      "grass",
+      "poison"
+    ]
+  },
+  "파라스": {
+    "speed": 25,
+    "national_no": 46,
+    "types": [
+      "bug",
+      "grass"
+    ]
+  },
+  "파라섹트": {
+    "speed": 30,
+    "national_no": 47,
+    "types": [
+      "bug",
+      "grass"
+    ]
+  },
+  "콘팡": {
+    "speed": 45,
+    "national_no": 48,
+    "types": [
+      "bug",
+      "poison"
+    ]
+  },
+  "도나리": {
+    "speed": 90,
+    "national_no": 49,
+    "types": [
+      "bug",
+      "poison"
+    ]
+  },
+  "디그다": {
+    "speed": 95,
+    "national_no": 50,
+    "types": [
+      "ground"
+    ]
+  },
+  "닥트리오": {
+    "speed": 120,
+    "national_no": 51,
+    "types": [
+      "ground"
+    ]
+  },
+  "나옹": {
+    "speed": 90,
+    "national_no": 52,
+    "types": [
+      "normal"
+    ]
+  },
+  "페르시온": {
+    "speed": 115,
+    "national_no": 53,
+    "types": [
+      "normal"
+    ]
+  },
+  "고라파덕": {
+    "speed": 55,
+    "national_no": 54,
+    "types": [
+      "water"
+    ]
+  },
+  "골덕": {
+    "speed": 85,
+    "national_no": 55,
+    "types": [
+      "water"
+    ]
+  },
+  "망키": {
+    "speed": 70,
+    "national_no": 56,
+    "types": [
+      "fighting"
+    ]
+  },
+  "성원숭": {
+    "speed": 95,
+    "national_no": 57,
+    "types": [
+      "fighting"
+    ]
+  },
+  "가디": {
+    "speed": 60,
+    "national_no": 58,
+    "types": [
+      "fire"
+    ]
+  },
+  "윈디": {
+    "speed": 95,
+    "national_no": 59,
+    "types": [
+      "fire"
+    ]
+  },
+  "발챙이": {
+    "speed": 90,
+    "national_no": 60,
+    "types": [
+      "water"
+    ]
+  },
+  "슈륙챙이": {
+    "speed": 90,
+    "national_no": 61,
+    "types": [
+      "water"
+    ]
+  },
+  "강챙이": {
+    "speed": 70,
+    "national_no": 62,
+    "types": [
+      "water",
+      "fighting"
+    ]
+  },
+  "캐이시": {
+    "speed": 90,
+    "national_no": 63,
+    "types": [
+      "psychic"
+    ]
+  },
+  "윤겔라": {
+    "speed": 105,
+    "national_no": 64,
+    "types": [
+      "psychic"
+    ]
+  },
+  "후딘": {
+    "speed": 120,
+    "national_no": 65,
+    "types": [
+      "psychic"
+    ],
+    "megas": [
+      {
+        "slug": "alakazam-mega",
+        "ko_name": null,
+        "speed": 150,
+        "types": [
+          "psychic"
+        ]
+      }
+    ]
+  },
+  "알통몬": {
+    "speed": 35,
+    "national_no": 66,
+    "types": [
+      "fighting"
+    ]
+  },
+  "근육몬": {
+    "speed": 45,
+    "national_no": 67,
+    "types": [
+      "fighting"
+    ]
+  },
+  "괴력몬": {
+    "speed": 55,
+    "national_no": 68,
+    "types": [
+      "fighting"
+    ]
+  },
+  "모다피": {
+    "speed": 40,
+    "national_no": 69,
+    "types": [
+      "grass",
+      "poison"
+    ]
+  },
+  "우츠동": {
+    "speed": 55,
+    "national_no": 70,
+    "types": [
+      "grass",
+      "poison"
+    ]
+  },
+  "우츠보트": {
+    "speed": 70,
+    "national_no": 71,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "megas": [
+      {
+        "slug": "victreebel-mega",
+        "ko_name": null,
+        "speed": 70,
+        "types": [
+          "grass",
+          "poison"
+        ]
+      }
+    ]
+  },
+  "왕눈해": {
+    "speed": 70,
+    "national_no": 72,
+    "types": [
+      "water",
+      "poison"
+    ]
+  },
+  "독파리": {
+    "speed": 100,
+    "national_no": 73,
+    "types": [
+      "water",
+      "poison"
+    ]
+  },
+  "꼬마돌": {
+    "speed": 20,
+    "national_no": 74,
+    "types": [
+      "rock",
+      "ground"
+    ]
+  },
+  "데구리": {
+    "speed": 35,
+    "national_no": 75,
+    "types": [
+      "rock",
+      "ground"
+    ]
+  },
+  "딱구리": {
+    "speed": 45,
+    "national_no": 76,
+    "types": [
+      "rock",
+      "ground"
+    ]
+  },
+  "포니타": {
+    "speed": 90,
+    "national_no": 77,
+    "types": [
+      "fire"
+    ]
+  },
+  "날쌩마": {
+    "speed": 105,
+    "national_no": 78,
+    "types": [
+      "fire"
+    ]
+  },
+  "야돈": {
+    "speed": 15,
+    "national_no": 79,
+    "types": [
+      "water",
+      "psychic"
+    ]
+  },
+  "야도란": {
+    "speed": 30,
+    "national_no": 80,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "megas": [
+      {
+        "slug": "slowbro-mega",
+        "ko_name": null,
+        "speed": 30,
+        "types": [
+          "water",
+          "psychic"
+        ]
+      }
+    ]
+  },
+  "코일": {
+    "speed": 45,
+    "national_no": 81,
+    "types": [
+      "electric",
+      "steel"
+    ]
+  },
+  "레어코일": {
+    "speed": 70,
+    "national_no": 82,
+    "types": [
+      "electric",
+      "steel"
+    ]
+  },
+  "파오리": {
+    "speed": 60,
+    "national_no": 83,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "두두": {
+    "speed": 75,
+    "national_no": 84,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "두트리오": {
+    "speed": 110,
+    "national_no": 85,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "쥬쥬": {
+    "speed": 45,
+    "national_no": 86,
+    "types": [
+      "water"
+    ]
+  },
+  "쥬레곤": {
+    "speed": 70,
+    "national_no": 87,
+    "types": [
+      "water",
+      "ice"
+    ]
+  },
+  "질퍽이": {
+    "speed": 25,
+    "national_no": 88,
+    "types": [
+      "poison"
+    ]
+  },
+  "질뻐기": {
+    "speed": 50,
+    "national_no": 89,
+    "types": [
+      "poison"
+    ]
+  },
+  "셀러": {
+    "speed": 40,
+    "national_no": 90,
+    "types": [
+      "water"
+    ]
+  },
+  "파르셀": {
+    "speed": 70,
+    "national_no": 91,
+    "types": [
+      "water",
+      "ice"
+    ]
+  },
+  "고오스": {
+    "speed": 80,
+    "national_no": 92,
+    "types": [
+      "ghost",
+      "poison"
+    ]
+  },
+  "고우스트": {
+    "speed": 95,
+    "national_no": 93,
+    "types": [
+      "ghost",
+      "poison"
+    ]
+  },
+  "팬텀": {
+    "speed": 110,
+    "national_no": 94,
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "megas": [
+      {
+        "slug": "gengar-mega",
+        "ko_name": null,
+        "speed": 130,
+        "types": [
+          "ghost",
+          "poison"
+        ]
+      }
+    ]
+  },
+  "롱스톤": {
+    "speed": 70,
+    "national_no": 95,
+    "types": [
+      "rock",
+      "ground"
+    ]
+  },
+  "슬리프": {
+    "speed": 42,
+    "national_no": 96,
+    "types": [
+      "psychic"
+    ]
+  },
+  "슬리퍼": {
+    "speed": 67,
+    "national_no": 97,
+    "types": [
+      "psychic"
+    ]
+  },
+  "크랩": {
+    "speed": 50,
+    "national_no": 98,
+    "types": [
+      "water"
+    ]
+  },
+  "킹크랩": {
+    "speed": 75,
+    "national_no": 99,
+    "types": [
+      "water"
+    ]
+  },
+  "찌리리공": {
+    "speed": 100,
+    "national_no": 100,
+    "types": [
+      "electric"
+    ]
+  },
+  "붐볼": {
+    "speed": 150,
+    "national_no": 101,
+    "types": [
+      "electric"
+    ]
+  },
+  "아라리": {
+    "speed": 40,
+    "national_no": 102,
+    "types": [
+      "grass",
+      "psychic"
+    ]
+  },
+  "나시": {
+    "speed": 55,
+    "national_no": 103,
+    "types": [
+      "grass",
+      "psychic"
+    ]
+  },
+  "탕구리": {
+    "speed": 35,
+    "national_no": 104,
+    "types": [
+      "ground"
+    ]
+  },
+  "텅구리": {
+    "speed": 45,
+    "national_no": 105,
+    "types": [
+      "ground"
+    ]
+  },
+  "시라소몬": {
+    "speed": 87,
+    "national_no": 106,
+    "types": [
+      "fighting"
+    ]
+  },
+  "홍수몬": {
+    "speed": 76,
+    "national_no": 107,
+    "types": [
+      "fighting"
+    ]
+  },
+  "내루미": {
+    "speed": 30,
+    "national_no": 108,
+    "types": [
+      "normal"
+    ]
+  },
+  "또가스": {
+    "speed": 35,
+    "national_no": 109,
+    "types": [
+      "poison"
+    ]
+  },
+  "또도가스": {
+    "speed": 60,
+    "national_no": 110,
+    "types": [
+      "poison"
+    ]
+  },
+  "뿔카노": {
+    "speed": 25,
+    "national_no": 111,
+    "types": [
+      "ground",
+      "rock"
+    ]
+  },
+  "코뿌리": {
+    "speed": 40,
+    "national_no": 112,
+    "types": [
+      "ground",
+      "rock"
+    ]
+  },
+  "럭키": {
+    "speed": 50,
+    "national_no": 113,
+    "types": [
+      "normal"
+    ]
+  },
+  "덩쿠리": {
+    "speed": 60,
+    "national_no": 114,
+    "types": [
+      "grass"
+    ]
+  },
+  "캥카": {
+    "speed": 90,
+    "national_no": 115,
+    "types": [
+      "normal"
+    ],
+    "megas": [
+      {
+        "slug": "kangaskhan-mega",
+        "ko_name": null,
+        "speed": 100,
+        "types": [
+          "normal"
+        ]
+      }
+    ]
+  },
+  "쏘드라": {
+    "speed": 60,
+    "national_no": 116,
+    "types": [
+      "water"
+    ]
+  },
+  "시드라": {
+    "speed": 85,
+    "national_no": 117,
+    "types": [
+      "water"
+    ]
+  },
+  "콘치": {
+    "speed": 63,
+    "national_no": 118,
+    "types": [
+      "water"
+    ]
+  },
+  "왕콘치": {
+    "speed": 68,
+    "national_no": 119,
+    "types": [
+      "water"
+    ]
+  },
+  "별가사리": {
+    "speed": 85,
+    "national_no": 120,
+    "types": [
+      "water"
+    ]
+  },
+  "아쿠스타": {
+    "speed": 115,
+    "national_no": 121,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "megas": [
+      {
+        "slug": "starmie-mega",
+        "ko_name": null,
+        "speed": 120,
+        "types": [
+          "water",
+          "psychic"
+        ]
+      }
+    ]
+  },
+  "마임맨": {
+    "speed": 90,
+    "national_no": 122,
+    "types": [
+      "psychic",
+      "fairy"
+    ]
+  },
+  "스라크": {
+    "speed": 105,
+    "national_no": 123,
+    "types": [
+      "bug",
+      "flying"
+    ]
+  },
+  "루주라": {
+    "speed": 95,
+    "national_no": 124,
+    "types": [
+      "ice",
+      "psychic"
+    ]
+  },
+  "에레브": {
+    "speed": 105,
+    "national_no": 125,
+    "types": [
+      "electric"
+    ]
+  },
+  "마그마": {
+    "speed": 93,
+    "national_no": 126,
+    "types": [
+      "fire"
+    ]
+  },
+  "쁘사이저": {
+    "speed": 85,
+    "national_no": 127,
+    "types": [
+      "bug"
+    ],
+    "megas": [
+      {
+        "slug": "pinsir-mega",
+        "ko_name": null,
+        "speed": 105,
+        "types": [
+          "bug",
+          "flying"
+        ]
+      }
+    ]
+  },
+  "켄타로스": {
+    "speed": 110,
+    "national_no": 128,
+    "types": [
+      "normal"
+    ]
+  },
+  "잉어킹": {
+    "speed": 80,
+    "national_no": 129,
+    "types": [
+      "water"
+    ]
+  },
+  "갸라도스": {
+    "speed": 81,
+    "national_no": 130,
+    "types": [
+      "water",
+      "flying"
+    ],
+    "megas": [
+      {
+        "slug": "gyarados-mega",
+        "ko_name": null,
+        "speed": 81,
+        "types": [
+          "water",
+          "dark"
+        ]
+      }
+    ]
+  },
+  "라프라스": {
+    "speed": 60,
+    "national_no": 131,
+    "types": [
+      "water",
+      "ice"
+    ]
+  },
+  "메타몽": {
+    "speed": 48,
+    "national_no": 132,
+    "types": [
+      "normal"
+    ]
+  },
+  "이브이": {
+    "speed": 55,
+    "national_no": 133,
+    "types": [
+      "normal"
+    ]
+  },
+  "샤미드": {
+    "speed": 65,
+    "national_no": 134,
+    "types": [
+      "water"
+    ]
+  },
+  "쥬피썬더": {
+    "speed": 130,
+    "national_no": 135,
+    "types": [
+      "electric"
+    ]
+  },
+  "부스터": {
+    "speed": 65,
+    "national_no": 136,
+    "types": [
+      "fire"
+    ]
+  },
+  "폴리곤": {
+    "speed": 40,
+    "national_no": 137,
+    "types": [
+      "normal"
+    ]
+  },
+  "암나이트": {
+    "speed": 35,
+    "national_no": 138,
+    "types": [
+      "rock",
+      "water"
+    ]
+  },
+  "암스타": {
+    "speed": 55,
+    "national_no": 139,
+    "types": [
+      "rock",
+      "water"
+    ]
+  },
+  "투구": {
+    "speed": 55,
+    "national_no": 140,
+    "types": [
+      "rock",
+      "water"
+    ]
+  },
+  "투구푸스": {
+    "speed": 80,
+    "national_no": 141,
+    "types": [
+      "rock",
+      "water"
+    ]
+  },
+  "프테라": {
+    "speed": 130,
+    "national_no": 142,
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "megas": [
+      {
+        "slug": "aerodactyl-mega",
+        "ko_name": null,
+        "speed": 150,
+        "types": [
+          "rock",
+          "flying"
+        ]
+      }
+    ]
+  },
+  "잠만보": {
+    "speed": 30,
+    "national_no": 143,
+    "types": [
+      "normal"
+    ]
+  },
+  "프리져": {
+    "speed": 85,
+    "national_no": 144,
+    "types": [
+      "ice",
+      "flying"
+    ]
+  },
+  "썬더": {
+    "speed": 100,
+    "national_no": 145,
+    "types": [
+      "electric",
+      "flying"
+    ]
+  },
+  "파이어": {
+    "speed": 90,
+    "national_no": 146,
+    "types": [
+      "fire",
+      "flying"
+    ]
+  },
+  "미뇽": {
+    "speed": 50,
+    "national_no": 147,
+    "types": [
+      "dragon"
+    ]
+  },
+  "신뇽": {
+    "speed": 70,
+    "national_no": 148,
+    "types": [
+      "dragon"
+    ]
+  },
+  "망나뇽": {
+    "speed": 80,
+    "national_no": 149,
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "megas": [
+      {
+        "slug": "dragonite-mega",
+        "ko_name": null,
+        "speed": 100,
+        "types": [
+          "dragon",
+          "flying"
+        ]
+      }
+    ]
+  },
+  "뮤츠": {
+    "speed": 130,
+    "national_no": 150,
+    "types": [
+      "psychic"
+    ],
+    "megas": [
+      {
+        "slug": "mewtwo-mega-x",
+        "ko_name": null,
+        "speed": 130,
+        "types": [
+          "psychic",
+          "fighting"
+        ]
+      },
+      {
+        "slug": "mewtwo-mega-y",
+        "ko_name": null,
+        "speed": 140,
+        "types": [
+          "psychic"
+        ]
+      }
+    ]
+  },
+  "뮤": {
+    "speed": 100,
+    "national_no": 151,
+    "types": [
+      "psychic"
+    ]
+  },
+  "치코리타": {
+    "speed": 45,
+    "national_no": 152,
+    "types": [
+      "grass"
+    ]
+  },
+  "베이리프": {
+    "speed": 60,
+    "national_no": 153,
+    "types": [
+      "grass"
+    ]
+  },
+  "메가니움": {
+    "speed": 80,
+    "national_no": 154,
+    "types": [
+      "grass"
+    ],
+    "megas": [
+      {
+        "slug": "meganium",
+        "ko_name": null,
+        "speed": 80,
+        "types": [
+          "grass"
+        ]
+      },
+      {
+        "slug": "meganium-mega",
+        "ko_name": null,
+        "speed": 80,
+        "types": [
+          "grass",
+          "fairy"
+        ]
+      }
+    ]
+  },
+  "브케인": {
+    "speed": 65,
+    "national_no": 155,
+    "types": [
+      "fire"
+    ]
+  },
+  "마그케인": {
+    "speed": 80,
+    "national_no": 156,
+    "types": [
+      "fire"
+    ]
+  },
+  "블레이범": {
+    "speed": 100,
+    "national_no": 157,
+    "types": [
+      "fire"
+    ]
+  },
+  "리아코": {
+    "speed": 43,
+    "national_no": 158,
+    "types": [
+      "water"
+    ]
+  },
+  "엘리게이": {
+    "speed": 58,
+    "national_no": 159,
+    "types": [
+      "water"
+    ]
+  },
+  "장크로다일": {
+    "speed": 78,
+    "national_no": 160,
+    "types": [
+      "water"
+    ],
+    "megas": [
+      {
+        "slug": "feraligatr-mega",
+        "ko_name": null,
+        "speed": 78,
+        "types": [
+          "water",
+          "dragon"
+        ]
+      }
+    ]
+  },
+  "꼬리선": {
+    "speed": 20,
+    "national_no": 161,
+    "types": [
+      "normal"
+    ]
+  },
+  "다꼬리": {
+    "speed": 90,
+    "national_no": 162,
+    "types": [
+      "normal"
+    ]
+  },
+  "부우부": {
+    "speed": 50,
+    "national_no": 163,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "야부엉": {
+    "speed": 70,
+    "national_no": 164,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "레디바": {
+    "speed": 55,
+    "national_no": 165,
+    "types": [
+      "bug",
+      "flying"
+    ]
+  },
+  "레디안": {
+    "speed": 85,
+    "national_no": 166,
+    "types": [
+      "bug",
+      "flying"
+    ]
+  },
+  "페이검": {
+    "speed": 30,
+    "national_no": 167,
+    "types": [
+      "bug",
+      "poison"
+    ]
+  },
+  "아리아도스": {
+    "speed": 40,
+    "national_no": 168,
+    "types": [
+      "bug",
+      "poison"
+    ]
+  },
+  "크로뱃": {
+    "speed": 130,
+    "national_no": 169,
+    "types": [
+      "poison",
+      "flying"
+    ]
+  },
+  "초라기": {
+    "speed": 67,
+    "national_no": 170,
+    "types": [
+      "water",
+      "electric"
+    ]
+  },
+  "랜턴": {
+    "speed": 67,
+    "national_no": 171,
+    "types": [
+      "water",
+      "electric"
+    ]
+  },
+  "피츄": {
+    "speed": 60,
+    "national_no": 172,
+    "types": [
+      "electric"
+    ]
+  },
+  "삐": {
+    "speed": 15,
+    "national_no": 173,
+    "types": [
+      "fairy"
+    ]
+  },
+  "푸푸린": {
+    "speed": 15,
+    "national_no": 174,
+    "types": [
+      "normal",
+      "fairy"
+    ]
+  },
+  "토게피": {
+    "speed": 20,
+    "national_no": 175,
+    "types": [
+      "fairy"
+    ]
+  },
+  "토게틱": {
+    "speed": 40,
+    "national_no": 176,
+    "types": [
+      "fairy",
+      "flying"
+    ]
+  },
+  "네이티": {
+    "speed": 70,
+    "national_no": 177,
+    "types": [
+      "psychic",
+      "flying"
+    ]
+  },
+  "네이티오": {
+    "speed": 95,
+    "national_no": 178,
+    "types": [
+      "psychic",
+      "flying"
+    ]
+  },
+  "메리프": {
+    "speed": 35,
+    "national_no": 179,
+    "types": [
+      "electric"
+    ]
+  },
+  "보송송": {
+    "speed": 45,
+    "national_no": 180,
+    "types": [
+      "electric"
+    ]
+  },
+  "전룡": {
+    "speed": 55,
+    "national_no": 181,
+    "types": [
+      "electric"
+    ],
+    "megas": [
+      {
+        "slug": "ampharos-mega",
+        "ko_name": null,
+        "speed": 45,
+        "types": [
+          "electric",
+          "dragon"
+        ]
+      }
+    ]
+  },
+  "아르코": {
+    "speed": 50,
+    "national_no": 182,
+    "types": [
+      "grass"
+    ]
+  },
+  "마릴": {
+    "speed": 40,
+    "national_no": 183,
+    "types": [
+      "water",
+      "fairy"
+    ]
+  },
+  "마릴리": {
+    "speed": 50,
+    "national_no": 184,
+    "types": [
+      "water",
+      "fairy"
+    ]
+  },
+  "꼬지모": {
+    "speed": 30,
+    "national_no": 185,
+    "types": [
+      "rock"
+    ]
+  },
+  "왕구리": {
+    "speed": 70,
+    "national_no": 186,
+    "types": [
+      "water"
+    ]
+  },
+  "통통코": {
+    "speed": 50,
+    "national_no": 187,
+    "types": [
+      "grass",
+      "flying"
+    ]
+  },
+  "두코": {
+    "speed": 80,
+    "national_no": 188,
+    "types": [
+      "grass",
+      "flying"
+    ]
+  },
+  "솜솜코": {
+    "speed": 110,
+    "national_no": 189,
+    "types": [
+      "grass",
+      "flying"
+    ]
+  },
+  "에이팜": {
+    "speed": 85,
+    "national_no": 190,
+    "types": [
+      "normal"
+    ]
+  },
+  "해너츠": {
+    "speed": 30,
+    "national_no": 191,
+    "types": [
+      "grass"
+    ]
+  },
+  "해루미": {
+    "speed": 30,
+    "national_no": 192,
+    "types": [
+      "grass"
+    ]
+  },
+  "왕자리": {
+    "speed": 95,
+    "national_no": 193,
+    "types": [
+      "bug",
+      "flying"
+    ]
+  },
+  "우파": {
+    "speed": 15,
+    "national_no": 194,
+    "types": [
+      "water",
+      "ground"
+    ]
+  },
+  "누오": {
+    "speed": 35,
+    "national_no": 195,
+    "types": [
+      "water",
+      "ground"
+    ]
+  },
+  "에브이": {
+    "speed": 110,
+    "national_no": 196,
+    "types": [
+      "psychic"
+    ]
+  },
+  "블래키": {
+    "speed": 65,
+    "national_no": 197,
+    "types": [
+      "dark"
+    ]
+  },
+  "니로우": {
+    "speed": 91,
+    "national_no": 198,
+    "types": [
+      "dark",
+      "flying"
+    ]
+  },
+  "야도킹": {
+    "speed": 30,
+    "national_no": 199,
+    "types": [
+      "water",
+      "psychic"
+    ]
+  },
+  "무우마": {
+    "speed": 85,
+    "national_no": 200,
+    "types": [
+      "ghost"
+    ]
+  },
+  "안농": {
+    "speed": 48,
+    "national_no": 201,
+    "types": [
+      "psychic"
+    ]
+  },
+  "마자용": {
+    "speed": 33,
+    "national_no": 202,
+    "types": [
+      "psychic"
+    ]
+  },
+  "키링키": {
+    "speed": 85,
+    "national_no": 203,
+    "types": [
+      "normal",
+      "psychic"
+    ]
+  },
+  "피콘": {
+    "speed": 15,
+    "national_no": 204,
+    "types": [
+      "bug"
+    ]
+  },
+  "쏘콘": {
+    "speed": 40,
+    "national_no": 205,
+    "types": [
+      "bug",
+      "steel"
+    ]
+  },
+  "노고치": {
+    "speed": 45,
+    "national_no": 206,
+    "types": [
+      "normal"
+    ]
+  },
+  "글라이거": {
+    "speed": 85,
+    "national_no": 207,
+    "types": [
+      "ground",
+      "flying"
+    ]
+  },
+  "강철톤": {
+    "speed": 30,
+    "national_no": 208,
+    "types": [
+      "steel",
+      "ground"
+    ],
+    "megas": [
+      {
+        "slug": "steelix-mega",
+        "ko_name": null,
+        "speed": 30,
+        "types": [
+          "steel",
+          "ground"
+        ]
+      }
+    ]
+  },
+  "블루": {
+    "speed": 30,
+    "national_no": 209,
+    "types": [
+      "fairy"
+    ]
+  },
+  "그랑블루": {
+    "speed": 45,
+    "national_no": 210,
+    "types": [
+      "fairy"
+    ]
+  },
+  "침바루": {
+    "speed": 85,
+    "national_no": 211,
+    "types": [
+      "water",
+      "poison"
+    ]
+  },
+  "핫삼": {
+    "speed": 65,
+    "national_no": 212,
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "megas": [
+      {
+        "slug": "scizor-mega",
+        "ko_name": null,
+        "speed": 75,
+        "types": [
+          "bug",
+          "steel"
+        ]
+      }
+    ]
+  },
+  "단단지": {
+    "speed": 5,
+    "national_no": 213,
+    "types": [
+      "bug",
+      "rock"
+    ]
+  },
+  "헤라크로스": {
+    "speed": 85,
+    "national_no": 214,
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "megas": [
+      {
+        "slug": "heracross-mega",
+        "ko_name": null,
+        "speed": 75,
+        "types": [
+          "bug",
+          "fighting"
+        ]
+      }
+    ]
+  },
+  "포푸니": {
+    "speed": 115,
+    "national_no": 215,
+    "types": [
+      "dark",
+      "ice"
+    ]
+  },
+  "깜지곰": {
+    "speed": 40,
+    "national_no": 216,
+    "types": [
+      "normal"
+    ]
+  },
+  "링곰": {
+    "speed": 55,
+    "national_no": 217,
+    "types": [
+      "normal"
+    ]
+  },
+  "마그마그": {
+    "speed": 20,
+    "national_no": 218,
+    "types": [
+      "fire"
+    ]
+  },
+  "마그카르고": {
+    "speed": 30,
+    "national_no": 219,
+    "types": [
+      "fire",
+      "rock"
+    ]
+  },
+  "꾸꾸리": {
+    "speed": 50,
+    "national_no": 220,
+    "types": [
+      "ice",
+      "ground"
+    ]
+  },
+  "메꾸리": {
+    "speed": 50,
+    "national_no": 221,
+    "types": [
+      "ice",
+      "ground"
+    ]
+  },
+  "코산호": {
+    "speed": 35,
+    "national_no": 222,
+    "types": [
+      "water",
+      "rock"
+    ]
+  },
+  "총어": {
+    "speed": 65,
+    "national_no": 223,
+    "types": [
+      "water"
+    ]
+  },
+  "대포무노": {
+    "speed": 45,
+    "national_no": 224,
+    "types": [
+      "water"
+    ]
+  },
+  "딜리버드": {
+    "speed": 75,
+    "national_no": 225,
+    "types": [
+      "ice",
+      "flying"
+    ]
+  },
+  "만타인": {
+    "speed": 70,
+    "national_no": 226,
+    "types": [
+      "water",
+      "flying"
+    ]
+  },
+  "무장조": {
+    "speed": 70,
+    "national_no": 227,
+    "types": [
+      "steel",
+      "flying"
+    ],
+    "megas": [
+      {
+        "slug": "skarmory-mega",
+        "ko_name": null,
+        "speed": 110,
+        "types": [
+          "steel",
+          "flying"
+        ]
+      }
+    ]
+  },
+  "델빌": {
+    "speed": 65,
+    "national_no": 228,
+    "types": [
+      "dark",
+      "fire"
+    ]
+  },
+  "헬가": {
+    "speed": 95,
+    "national_no": 229,
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "megas": [
+      {
+        "slug": "houndoom-mega",
+        "ko_name": null,
+        "speed": 115,
+        "types": [
+          "dark",
+          "fire"
+        ]
+      }
+    ]
+  },
+  "킹드라": {
+    "speed": 85,
+    "national_no": 230,
+    "types": [
+      "water",
+      "dragon"
+    ]
+  },
+  "코코리": {
+    "speed": 40,
+    "national_no": 231,
+    "types": [
+      "ground"
+    ]
+  },
+  "코리갑": {
+    "speed": 50,
+    "national_no": 232,
+    "types": [
+      "ground"
+    ]
+  },
+  "폴리곤2": {
+    "speed": 60,
+    "national_no": 233,
+    "types": [
+      "normal"
+    ]
+  },
+  "노라키": {
+    "speed": 85,
+    "national_no": 234,
+    "types": [
+      "normal"
+    ]
+  },
+  "루브도": {
+    "speed": 75,
+    "national_no": 235,
+    "types": [
+      "normal"
+    ]
+  },
+  "배루키": {
+    "speed": 35,
+    "national_no": 236,
+    "types": [
+      "fighting"
+    ]
+  },
+  "카포에라": {
+    "speed": 70,
+    "national_no": 237,
+    "types": [
+      "fighting"
+    ]
+  },
+  "뽀뽀라": {
+    "speed": 65,
+    "national_no": 238,
+    "types": [
+      "ice",
+      "psychic"
+    ]
+  },
+  "에레키드": {
+    "speed": 95,
+    "national_no": 239,
+    "types": [
+      "electric"
+    ]
+  },
+  "마그비": {
+    "speed": 83,
+    "national_no": 240,
+    "types": [
+      "fire"
+    ]
+  },
+  "밀탱크": {
+    "speed": 100,
+    "national_no": 241,
+    "types": [
+      "normal"
+    ]
+  },
+  "해피너스": {
+    "speed": 55,
+    "national_no": 242,
+    "types": [
+      "normal"
+    ]
+  },
+  "라이코": {
+    "speed": 115,
+    "national_no": 243,
+    "types": [
+      "electric"
+    ]
+  },
+  "앤테이": {
+    "speed": 100,
+    "national_no": 244,
+    "types": [
+      "fire"
+    ]
+  },
+  "스이쿤": {
+    "speed": 85,
+    "national_no": 245,
+    "types": [
+      "water"
+    ]
+  },
+  "애버라스": {
+    "speed": 41,
+    "national_no": 246,
+    "types": [
+      "rock",
+      "ground"
+    ]
+  },
+  "데기라스": {
+    "speed": 51,
+    "national_no": 247,
+    "types": [
+      "rock",
+      "ground"
+    ]
+  },
+  "마기라스": {
+    "speed": 61,
+    "national_no": 248,
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "megas": [
+      {
+        "slug": "tyranitar-mega",
+        "ko_name": null,
+        "speed": 71,
+        "types": [
+          "rock",
+          "dark"
+        ]
+      }
+    ]
+  },
+  "루기아": {
+    "speed": 110,
+    "national_no": 249,
+    "types": [
+      "psychic",
+      "flying"
+    ]
+  },
+  "칠색조": {
+    "speed": 90,
+    "national_no": 250,
+    "types": [
+      "fire",
+      "flying"
+    ]
+  },
+  "세레비": {
+    "speed": 100,
+    "national_no": 251,
+    "types": [
+      "psychic",
+      "grass"
+    ]
+  },
+  "나무지기": {
+    "speed": 70,
+    "national_no": 252,
+    "types": [
+      "grass"
+    ]
+  },
+  "나무돌이": {
+    "speed": 95,
+    "national_no": 253,
+    "types": [
+      "grass"
+    ]
+  },
+  "나무킹": {
+    "speed": 120,
+    "national_no": 254,
+    "types": [
+      "grass"
+    ],
+    "megas": [
+      {
+        "slug": "sceptile-mega",
+        "ko_name": null,
+        "speed": 145,
+        "types": [
+          "grass",
+          "dragon"
+        ]
+      }
+    ]
+  },
+  "아차모": {
+    "speed": 45,
+    "national_no": 255,
+    "types": [
+      "fire"
+    ]
+  },
+  "영치코": {
+    "speed": 55,
+    "national_no": 256,
+    "types": [
+      "fire",
+      "fighting"
+    ]
+  },
+  "번치코": {
+    "speed": 80,
+    "national_no": 257,
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "megas": [
+      {
+        "slug": "blaziken-mega",
+        "ko_name": null,
+        "speed": 100,
+        "types": [
+          "fire",
+          "fighting"
+        ]
+      }
+    ]
+  },
+  "물짱이": {
+    "speed": 40,
+    "national_no": 258,
+    "types": [
+      "water"
+    ]
+  },
+  "늪짱이": {
+    "speed": 50,
+    "national_no": 259,
+    "types": [
+      "water",
+      "ground"
+    ]
+  },
+  "대짱이": {
+    "speed": 60,
+    "national_no": 260,
+    "types": [
+      "water",
+      "ground"
+    ],
+    "megas": [
+      {
+        "slug": "swampert-mega",
+        "ko_name": null,
+        "speed": 70,
+        "types": [
+          "water",
+          "ground"
+        ]
+      }
+    ]
+  },
+  "포챠나": {
+    "speed": 35,
+    "national_no": 261,
+    "types": [
+      "dark"
+    ]
+  },
+  "그라에나": {
+    "speed": 70,
+    "national_no": 262,
+    "types": [
+      "dark"
+    ]
+  },
+  "지그제구리": {
+    "speed": 60,
+    "national_no": 263,
+    "types": [
+      "normal"
+    ]
+  },
+  "직구리": {
+    "speed": 100,
+    "national_no": 264,
+    "types": [
+      "normal"
+    ]
+  },
+  "개무소": {
+    "speed": 20,
+    "national_no": 265,
+    "types": [
+      "bug"
+    ]
+  },
+  "실쿤": {
+    "speed": 15,
+    "national_no": 266,
+    "types": [
+      "bug"
+    ]
+  },
+  "뷰티플라이": {
+    "speed": 65,
+    "national_no": 267,
+    "types": [
+      "bug",
+      "flying"
+    ]
+  },
+  "카스쿤": {
+    "speed": 15,
+    "national_no": 268,
+    "types": [
+      "bug"
+    ]
+  },
+  "독케일": {
+    "speed": 65,
+    "national_no": 269,
+    "types": [
+      "bug",
+      "poison"
+    ]
+  },
+  "연꽃몬": {
+    "speed": 30,
+    "national_no": 270,
+    "types": [
+      "water",
+      "grass"
+    ]
+  },
+  "로토스": {
+    "speed": 50,
+    "national_no": 271,
+    "types": [
+      "water",
+      "grass"
+    ]
+  },
+  "로파파": {
+    "speed": 70,
+    "national_no": 272,
+    "types": [
+      "water",
+      "grass"
+    ]
+  },
+  "도토링": {
+    "speed": 30,
+    "national_no": 273,
+    "types": [
+      "grass"
+    ]
+  },
+  "잎새코": {
+    "speed": 60,
+    "national_no": 274,
+    "types": [
+      "grass",
+      "dark"
+    ]
+  },
+  "다탱구": {
+    "speed": 80,
+    "national_no": 275,
+    "types": [
+      "grass",
+      "dark"
+    ]
+  },
+  "테일로": {
+    "speed": 85,
+    "national_no": 276,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "스왈로": {
+    "speed": 125,
+    "national_no": 277,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "갈모매": {
+    "speed": 85,
+    "national_no": 278,
+    "types": [
+      "water",
+      "flying"
+    ]
+  },
+  "패리퍼": {
+    "speed": 65,
+    "national_no": 279,
+    "types": [
+      "water",
+      "flying"
+    ]
+  },
+  "랄토스": {
+    "speed": 40,
+    "national_no": 280,
+    "types": [
+      "psychic",
+      "fairy"
+    ]
+  },
+  "킬리아": {
+    "speed": 50,
+    "national_no": 281,
+    "types": [
+      "psychic",
+      "fairy"
+    ]
+  },
+  "가디안": {
+    "speed": 80,
+    "national_no": 282,
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "megas": [
+      {
+        "slug": "gardevoir-mega",
+        "ko_name": null,
+        "speed": 100,
+        "types": [
+          "psychic",
+          "fairy"
+        ]
+      }
+    ]
+  },
+  "비구술": {
+    "speed": 65,
+    "national_no": 283,
+    "types": [
+      "bug",
+      "water"
+    ]
+  },
+  "비나방": {
+    "speed": 80,
+    "national_no": 284,
+    "types": [
+      "bug",
+      "flying"
+    ]
+  },
+  "버섯꼬": {
+    "speed": 35,
+    "national_no": 285,
+    "types": [
+      "grass"
+    ]
+  },
+  "버섯모": {
+    "speed": 70,
+    "national_no": 286,
+    "types": [
+      "grass",
+      "fighting"
+    ]
+  },
+  "게을로": {
+    "speed": 30,
+    "national_no": 287,
+    "types": [
+      "normal"
+    ]
+  },
+  "발바로": {
+    "speed": 90,
+    "national_no": 288,
+    "types": [
+      "normal"
+    ]
+  },
+  "게을킹": {
+    "speed": 100,
+    "national_no": 289,
+    "types": [
+      "normal"
+    ]
+  },
+  "토중몬": {
+    "speed": 40,
+    "national_no": 290,
+    "types": [
+      "bug",
+      "ground"
+    ]
+  },
+  "아이스크": {
+    "speed": 160,
+    "national_no": 291,
+    "types": [
+      "bug",
+      "flying"
+    ]
+  },
+  "껍질몬": {
+    "speed": 40,
+    "national_no": 292,
+    "types": [
+      "bug",
+      "ghost"
+    ]
+  },
+  "소곤룡": {
+    "speed": 28,
+    "national_no": 293,
+    "types": [
+      "normal"
+    ]
+  },
+  "노공룡": {
+    "speed": 48,
+    "national_no": 294,
+    "types": [
+      "normal"
+    ]
+  },
+  "폭음룡": {
+    "speed": 68,
+    "national_no": 295,
+    "types": [
+      "normal"
+    ]
+  },
+  "마크탕": {
+    "speed": 25,
+    "national_no": 296,
+    "types": [
+      "fighting"
+    ]
+  },
+  "하리뭉": {
+    "speed": 50,
+    "national_no": 297,
+    "types": [
+      "fighting"
+    ]
+  },
+  "루리리": {
+    "speed": 20,
+    "national_no": 298,
+    "types": [
+      "normal",
+      "fairy"
+    ]
+  },
+  "코코파스": {
+    "speed": 30,
+    "national_no": 299,
+    "types": [
+      "rock"
+    ]
+  },
+  "에나비": {
+    "speed": 50,
+    "national_no": 300,
+    "types": [
+      "normal"
+    ]
+  },
+  "델케티": {
+    "speed": 90,
+    "national_no": 301,
+    "types": [
+      "normal"
+    ]
+  },
+  "깜까미": {
+    "speed": 50,
+    "national_no": 302,
+    "types": [
+      "dark",
+      "ghost"
+    ],
+    "megas": [
+      {
+        "slug": "sableye-mega",
+        "ko_name": null,
+        "speed": 20,
+        "types": [
+          "dark",
+          "ghost"
+        ]
+      }
+    ]
+  },
+  "입치트": {
+    "speed": 50,
+    "national_no": 303,
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "megas": [
+      {
+        "slug": "mawile-mega",
+        "ko_name": null,
+        "speed": 50,
+        "types": [
+          "steel",
+          "fairy"
+        ]
+      }
+    ]
+  },
+  "가보리": {
+    "speed": 30,
+    "national_no": 304,
+    "types": [
+      "steel",
+      "rock"
+    ]
+  },
+  "갱도라": {
+    "speed": 40,
+    "national_no": 305,
+    "types": [
+      "steel",
+      "rock"
+    ]
+  },
+  "보스로라": {
+    "speed": 50,
+    "national_no": 306,
+    "types": [
+      "steel",
+      "rock"
+    ],
+    "megas": [
+      {
+        "slug": "aggron-mega",
+        "ko_name": null,
+        "speed": 50,
+        "types": [
+          "steel"
+        ]
+      }
+    ]
+  },
+  "요가랑": {
+    "speed": 60,
+    "national_no": 307,
+    "types": [
+      "fighting",
+      "psychic"
+    ]
+  },
+  "요가램": {
+    "speed": 80,
+    "national_no": 308,
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "megas": [
+      {
+        "slug": "medicham-mega",
+        "ko_name": null,
+        "speed": 100,
+        "types": [
+          "fighting",
+          "psychic"
+        ]
+      }
+    ]
+  },
+  "썬더라이": {
+    "speed": 65,
+    "national_no": 309,
+    "types": [
+      "electric"
+    ]
+  },
+  "썬더볼트": {
+    "speed": 105,
+    "national_no": 310,
+    "types": [
+      "electric"
+    ],
+    "megas": [
+      {
+        "slug": "manectric-mega",
+        "ko_name": null,
+        "speed": 135,
+        "types": [
+          "electric"
+        ]
+      }
+    ]
+  },
+  "플러시": {
+    "speed": 95,
+    "national_no": 311,
+    "types": [
+      "electric"
+    ]
+  },
+  "마이농": {
+    "speed": 95,
+    "national_no": 312,
+    "types": [
+      "electric"
+    ]
+  },
+  "볼비트": {
+    "speed": 85,
+    "national_no": 313,
+    "types": [
+      "bug"
+    ]
+  },
+  "네오비트": {
+    "speed": 85,
+    "national_no": 314,
+    "types": [
+      "bug"
+    ]
+  },
+  "로젤리아": {
+    "speed": 65,
+    "national_no": 315,
+    "types": [
+      "grass",
+      "poison"
+    ]
+  },
+  "꼴깍몬": {
+    "speed": 40,
+    "national_no": 316,
+    "types": [
+      "poison"
+    ]
+  },
+  "꿀꺽몬": {
+    "speed": 55,
+    "national_no": 317,
+    "types": [
+      "poison"
+    ]
+  },
+  "샤프니아": {
+    "speed": 65,
+    "national_no": 318,
+    "types": [
+      "water",
+      "dark"
+    ]
+  },
+  "샤크니아": {
+    "speed": 95,
+    "national_no": 319,
+    "types": [
+      "water",
+      "dark"
+    ],
+    "megas": [
+      {
+        "slug": "sharpedo-mega",
+        "ko_name": null,
+        "speed": 105,
+        "types": [
+          "water",
+          "dark"
+        ]
+      }
+    ]
+  },
+  "고래왕자": {
+    "speed": 60,
+    "national_no": 320,
+    "types": [
+      "water"
+    ]
+  },
+  "고래왕": {
+    "speed": 60,
+    "national_no": 321,
+    "types": [
+      "water"
+    ]
+  },
+  "둔타": {
+    "speed": 35,
+    "national_no": 322,
+    "types": [
+      "fire",
+      "ground"
+    ]
+  },
+  "폭타": {
+    "speed": 40,
+    "national_no": 323,
+    "types": [
+      "fire",
+      "ground"
+    ],
+    "megas": [
+      {
+        "slug": "camerupt-mega",
+        "ko_name": null,
+        "speed": 20,
+        "types": [
+          "fire",
+          "ground"
+        ]
+      }
+    ]
+  },
+  "코터스": {
+    "speed": 20,
+    "national_no": 324,
+    "types": [
+      "fire"
+    ]
+  },
+  "피그점프": {
+    "speed": 60,
+    "national_no": 325,
+    "types": [
+      "psychic"
+    ]
+  },
+  "피그킹": {
+    "speed": 80,
+    "national_no": 326,
+    "types": [
+      "psychic"
+    ]
+  },
+  "얼루기": {
+    "speed": 60,
+    "national_no": 327,
+    "types": [
+      "normal"
+    ]
+  },
+  "톱치": {
+    "speed": 10,
+    "national_no": 328,
+    "types": [
+      "ground"
+    ]
+  },
+  "비브라바": {
+    "speed": 70,
+    "national_no": 329,
+    "types": [
+      "ground",
+      "dragon"
+    ]
+  },
+  "플라이곤": {
+    "speed": 100,
+    "national_no": 330,
+    "types": [
+      "ground",
+      "dragon"
+    ]
+  },
+  "선인왕": {
+    "speed": 35,
+    "national_no": 331,
+    "types": [
+      "grass"
+    ]
+  },
+  "밤선인": {
+    "speed": 55,
+    "national_no": 332,
+    "types": [
+      "grass",
+      "dark"
+    ]
+  },
+  "파비코": {
+    "speed": 50,
+    "national_no": 333,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "파비코리": {
+    "speed": 80,
+    "national_no": 334,
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "megas": [
+      {
+        "slug": "altaria-mega",
+        "ko_name": null,
+        "speed": 80,
+        "types": [
+          "dragon",
+          "fairy"
+        ]
+      }
+    ]
+  },
+  "쟝고": {
+    "speed": 90,
+    "national_no": 335,
+    "types": [
+      "normal"
+    ]
+  },
+  "세비퍼": {
+    "speed": 65,
+    "national_no": 336,
+    "types": [
+      "poison"
+    ]
+  },
+  "루나톤": {
+    "speed": 70,
+    "national_no": 337,
+    "types": [
+      "rock",
+      "psychic"
+    ]
+  },
+  "솔록": {
+    "speed": 70,
+    "national_no": 338,
+    "types": [
+      "rock",
+      "psychic"
+    ]
+  },
+  "미꾸리": {
+    "speed": 60,
+    "national_no": 339,
+    "types": [
+      "water",
+      "ground"
+    ]
+  },
+  "메깅": {
+    "speed": 60,
+    "national_no": 340,
+    "types": [
+      "water",
+      "ground"
+    ]
+  },
+  "가재군": {
+    "speed": 35,
+    "national_no": 341,
+    "types": [
+      "water"
+    ]
+  },
+  "가재장군": {
+    "speed": 55,
+    "national_no": 342,
+    "types": [
+      "water",
+      "dark"
+    ]
+  },
+  "오뚝군": {
+    "speed": 55,
+    "national_no": 343,
+    "types": [
+      "ground",
+      "psychic"
+    ]
+  },
+  "점토도리": {
+    "speed": 75,
+    "national_no": 344,
+    "types": [
+      "ground",
+      "psychic"
+    ]
+  },
+  "릴링": {
+    "speed": 23,
+    "national_no": 345,
+    "types": [
+      "rock",
+      "grass"
+    ]
+  },
+  "릴리요": {
+    "speed": 43,
+    "national_no": 346,
+    "types": [
+      "rock",
+      "grass"
+    ]
+  },
+  "아노딥스": {
+    "speed": 75,
+    "national_no": 347,
+    "types": [
+      "rock",
+      "bug"
+    ]
+  },
+  "아말도": {
+    "speed": 45,
+    "national_no": 348,
+    "types": [
+      "rock",
+      "bug"
+    ]
+  },
+  "빈티나": {
+    "speed": 80,
+    "national_no": 349,
+    "types": [
+      "water"
+    ]
+  },
+  "밀로틱": {
+    "speed": 81,
+    "national_no": 350,
+    "types": [
+      "water"
+    ]
+  },
+  "캐스퐁": {
+    "speed": 70,
+    "national_no": 351,
+    "types": [
+      "normal"
+    ]
+  },
+  "켈리몬": {
+    "speed": 40,
+    "national_no": 352,
+    "types": [
+      "normal"
+    ]
+  },
+  "어둠대신": {
+    "speed": 45,
+    "national_no": 353,
+    "types": [
+      "ghost"
+    ]
+  },
+  "다크펫": {
+    "speed": 65,
+    "national_no": 354,
+    "types": [
+      "ghost"
+    ],
+    "megas": [
+      {
+        "slug": "banette-mega",
+        "ko_name": null,
+        "speed": 75,
+        "types": [
+          "ghost"
+        ]
+      }
+    ]
+  },
+  "해골몽": {
+    "speed": 25,
+    "national_no": 355,
+    "types": [
+      "ghost"
+    ]
+  },
+  "미라몽": {
+    "speed": 25,
+    "national_no": 356,
+    "types": [
+      "ghost"
+    ]
+  },
+  "트로피우스": {
+    "speed": 51,
+    "national_no": 357,
+    "types": [
+      "grass",
+      "flying"
+    ]
+  },
+  "치렁": {
+    "speed": 65,
+    "national_no": 358,
+    "types": [
+      "psychic"
+    ],
+    "megas": [
+      {
+        "slug": "chimecho-mega",
+        "ko_name": null,
+        "speed": 65,
+        "types": [
+          "psychic",
+          "steel"
+        ]
+      }
+    ]
+  },
+  "앱솔": {
+    "speed": 75,
+    "national_no": 359,
+    "types": [
+      "dark"
+    ],
+    "megas": [
+      {
+        "slug": "absol-mega",
+        "ko_name": null,
+        "speed": 115,
+        "types": [
+          "dark"
+        ]
+      },
+      {
+        "slug": "absol-mega-z",
+        "ko_name": null,
+        "speed": 151,
+        "types": [
+          "dark",
+          "ghost"
+        ]
+      }
+    ]
+  },
+  "마자": {
+    "speed": 23,
+    "national_no": 360,
+    "types": [
+      "psychic"
+    ]
+  },
+  "눈꼬마": {
+    "speed": 50,
+    "national_no": 361,
+    "types": [
+      "ice"
+    ]
+  },
+  "얼음귀신": {
+    "speed": 80,
+    "national_no": 362,
+    "types": [
+      "ice"
+    ],
+    "megas": [
+      {
+        "slug": "glalie-mega",
+        "ko_name": null,
+        "speed": 100,
+        "types": [
+          "ice"
+        ]
+      }
+    ]
+  },
+  "대굴레오": {
+    "speed": 25,
+    "national_no": 363,
+    "types": [
+      "ice",
+      "water"
+    ]
+  },
+  "씨레오": {
+    "speed": 45,
+    "national_no": 364,
+    "types": [
+      "ice",
+      "water"
+    ]
+  },
+  "씨카이저": {
+    "speed": 65,
+    "national_no": 365,
+    "types": [
+      "ice",
+      "water"
+    ]
+  },
+  "진주몽": {
+    "speed": 32,
+    "national_no": 366,
+    "types": [
+      "water"
+    ]
+  },
+  "헌테일": {
+    "speed": 52,
+    "national_no": 367,
+    "types": [
+      "water"
+    ]
+  },
+  "분홍장이": {
+    "speed": 52,
+    "national_no": 368,
+    "types": [
+      "water"
+    ]
+  },
+  "시라칸": {
+    "speed": 55,
+    "national_no": 369,
+    "types": [
+      "water",
+      "rock"
+    ]
+  },
+  "사랑동이": {
+    "speed": 97,
+    "national_no": 370,
+    "types": [
+      "water"
+    ]
+  },
+  "아공이": {
+    "speed": 50,
+    "national_no": 371,
+    "types": [
+      "dragon"
+    ]
+  },
+  "쉘곤": {
+    "speed": 50,
+    "national_no": 372,
+    "types": [
+      "dragon"
+    ]
+  },
+  "보만다": {
+    "speed": 100,
+    "national_no": 373,
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "megas": [
+      {
+        "slug": "salamence-mega",
+        "ko_name": null,
+        "speed": 120,
+        "types": [
+          "dragon",
+          "flying"
+        ]
+      }
+    ]
+  },
+  "메탕": {
+    "speed": 30,
+    "national_no": 374,
+    "types": [
+      "steel",
+      "psychic"
+    ]
+  },
+  "메탕구": {
+    "speed": 50,
+    "national_no": 375,
+    "types": [
+      "steel",
+      "psychic"
+    ]
+  },
+  "메타그로스": {
+    "speed": 70,
+    "national_no": 376,
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "megas": [
+      {
+        "slug": "metagross-mega",
+        "ko_name": null,
+        "speed": 110,
+        "types": [
+          "steel",
+          "psychic"
+        ]
+      }
+    ]
+  },
+  "레지락": {
+    "speed": 50,
+    "national_no": 377,
+    "types": [
+      "rock"
+    ]
+  },
+  "레지아이스": {
+    "speed": 50,
+    "national_no": 378,
+    "types": [
+      "ice"
+    ]
+  },
+  "레지스틸": {
+    "speed": 50,
+    "national_no": 379,
+    "types": [
+      "steel"
+    ]
+  },
+  "라티아스": {
+    "speed": 110,
+    "national_no": 380,
+    "types": [
+      "dragon",
+      "psychic"
+    ],
+    "megas": [
+      {
+        "slug": "latias-mega",
+        "ko_name": null,
+        "speed": 110,
+        "types": [
+          "dragon",
+          "psychic"
+        ]
+      }
+    ]
+  },
+  "라티오스": {
+    "speed": 110,
+    "national_no": 381,
+    "types": [
+      "dragon",
+      "psychic"
+    ],
+    "megas": [
+      {
+        "slug": "latios-mega",
+        "ko_name": null,
+        "speed": 110,
+        "types": [
+          "dragon",
+          "psychic"
+        ]
+      }
+    ]
+  },
+  "가이오가": {
+    "speed": 90,
+    "national_no": 382,
+    "types": [
+      "water"
+    ]
+  },
+  "그란돈": {
+    "speed": 90,
+    "national_no": 383,
+    "types": [
+      "ground"
+    ]
+  },
+  "레쿠쟈": {
+    "speed": 95,
+    "national_no": 384,
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "megas": [
+      {
+        "slug": "rayquaza-mega",
+        "ko_name": null,
+        "speed": 115,
+        "types": [
+          "dragon",
+          "flying"
+        ]
+      }
+    ]
+  },
+  "지라치": {
+    "speed": 100,
+    "national_no": 385,
+    "types": [
+      "steel",
+      "psychic"
+    ]
+  },
+  "테오키스": {
+    "speed": 150,
+    "national_no": 386,
+    "types": [
+      "psychic"
+    ]
+  },
+  "모부기": {
+    "speed": 31,
+    "national_no": 387,
+    "types": [
+      "grass"
+    ]
+  },
+  "수풀부기": {
+    "speed": 36,
+    "national_no": 388,
+    "types": [
+      "grass"
+    ]
+  },
+  "토대부기": {
+    "speed": 56,
+    "national_no": 389,
+    "types": [
+      "grass",
+      "ground"
+    ]
+  },
+  "불꽃숭이": {
+    "speed": 61,
+    "national_no": 390,
+    "types": [
+      "fire"
+    ]
+  },
+  "파이숭이": {
+    "speed": 81,
+    "national_no": 391,
+    "types": [
+      "fire",
+      "fighting"
+    ]
+  },
+  "초염몽": {
+    "speed": 108,
+    "national_no": 392,
+    "types": [
+      "fire",
+      "fighting"
+    ]
+  },
+  "팽도리": {
+    "speed": 40,
+    "national_no": 393,
+    "types": [
+      "water"
+    ]
+  },
+  "팽태자": {
+    "speed": 50,
+    "national_no": 394,
+    "types": [
+      "water"
+    ]
+  },
+  "엠페르트": {
+    "speed": 60,
+    "national_no": 395,
+    "types": [
+      "water",
+      "steel"
+    ]
+  },
+  "찌르꼬": {
+    "speed": 60,
+    "national_no": 396,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "찌르버드": {
+    "speed": 80,
+    "national_no": 397,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "찌르호크": {
+    "speed": 100,
+    "national_no": 398,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "megas": [
+      {
+        "slug": "staraptor-mega",
+        "ko_name": null,
+        "speed": 110,
+        "types": [
+          "fighting",
+          "flying"
+        ]
+      }
+    ]
+  },
+  "비버니": {
+    "speed": 31,
+    "national_no": 399,
+    "types": [
+      "normal"
+    ]
+  },
+  "비버통": {
+    "speed": 71,
+    "national_no": 400,
+    "types": [
+      "normal",
+      "water"
+    ]
+  },
+  "귀뚤뚜기": {
+    "speed": 25,
+    "national_no": 401,
+    "types": [
+      "bug"
+    ]
+  },
+  "귀뚤톡크": {
+    "speed": 65,
+    "national_no": 402,
+    "types": [
+      "bug"
+    ]
+  },
+  "꼬링크": {
+    "speed": 45,
+    "national_no": 403,
+    "types": [
+      "electric"
+    ]
+  },
+  "럭시오": {
+    "speed": 60,
+    "national_no": 404,
+    "types": [
+      "electric"
+    ]
+  },
+  "렌트라": {
+    "speed": 70,
+    "national_no": 405,
+    "types": [
+      "electric"
+    ]
+  },
+  "꼬몽울": {
+    "speed": 55,
+    "national_no": 406,
+    "types": [
+      "grass",
+      "poison"
+    ]
+  },
+  "로즈레이드": {
+    "speed": 90,
+    "national_no": 407,
+    "types": [
+      "grass",
+      "poison"
+    ]
+  },
+  "두개도스": {
+    "speed": 58,
+    "national_no": 408,
+    "types": [
+      "rock"
+    ]
+  },
+  "램펄드": {
+    "speed": 58,
+    "national_no": 409,
+    "types": [
+      "rock"
+    ]
+  },
+  "방패톱스": {
+    "speed": 30,
+    "national_no": 410,
+    "types": [
+      "rock",
+      "steel"
+    ]
+  },
+  "바리톱스": {
+    "speed": 30,
+    "national_no": 411,
+    "types": [
+      "rock",
+      "steel"
+    ]
+  },
+  "도롱충이": {
+    "speed": 36,
+    "national_no": 412,
+    "types": [
+      "bug"
+    ]
+  },
+  "도롱마담": {
+    "speed": 36,
+    "national_no": 413,
+    "types": [
+      "bug",
+      "grass"
+    ]
+  },
+  "나메일": {
+    "speed": 66,
+    "national_no": 414,
+    "types": [
+      "bug",
+      "flying"
+    ]
+  },
+  "세꿀버리": {
+    "speed": 70,
+    "national_no": 415,
+    "types": [
+      "bug",
+      "flying"
+    ]
+  },
+  "비퀸": {
+    "speed": 40,
+    "national_no": 416,
+    "types": [
+      "bug",
+      "flying"
+    ]
+  },
+  "파치리스": {
+    "speed": 95,
+    "national_no": 417,
+    "types": [
+      "electric"
+    ]
+  },
+  "브이젤": {
+    "speed": 85,
+    "national_no": 418,
+    "types": [
+      "water"
+    ]
+  },
+  "플로젤": {
+    "speed": 115,
+    "national_no": 419,
+    "types": [
+      "water"
+    ]
+  },
+  "체리버": {
+    "speed": 35,
+    "national_no": 420,
+    "types": [
+      "grass"
+    ]
+  },
+  "체리꼬": {
+    "speed": 85,
+    "national_no": 421,
+    "types": [
+      "grass"
+    ]
+  },
+  "깝질무": {
+    "speed": 34,
+    "national_no": 422,
+    "types": [
+      "water"
+    ]
+  },
+  "트리토돈": {
+    "speed": 39,
+    "national_no": 423,
+    "types": [
+      "water",
+      "ground"
+    ]
+  },
+  "겟핸보숭": {
+    "speed": 115,
+    "national_no": 424,
+    "types": [
+      "normal"
+    ]
+  },
+  "흔들풍손": {
+    "speed": 70,
+    "national_no": 425,
+    "types": [
+      "ghost",
+      "flying"
+    ]
+  },
+  "둥실라이드": {
+    "speed": 80,
+    "national_no": 426,
+    "types": [
+      "ghost",
+      "flying"
+    ]
+  },
+  "이어롤": {
+    "speed": 85,
+    "national_no": 427,
+    "types": [
+      "normal"
+    ]
+  },
+  "이어롭": {
+    "speed": 105,
+    "national_no": 428,
+    "types": [
+      "normal"
+    ],
+    "megas": [
+      {
+        "slug": "lopunny-mega",
+        "ko_name": null,
+        "speed": 135,
+        "types": [
+          "normal",
+          "fighting"
+        ]
+      }
+    ]
+  },
+  "무우마직": {
+    "speed": 105,
+    "national_no": 429,
+    "types": [
+      "ghost"
+    ]
+  },
+  "돈크로우": {
+    "speed": 71,
+    "national_no": 430,
+    "types": [
+      "dark",
+      "flying"
+    ]
+  },
+  "나옹마": {
+    "speed": 85,
+    "national_no": 431,
+    "types": [
+      "normal"
+    ]
+  },
+  "몬냥이": {
+    "speed": 112,
+    "national_no": 432,
+    "types": [
+      "normal"
+    ]
+  },
+  "랑딸랑": {
+    "speed": 45,
+    "national_no": 433,
+    "types": [
+      "psychic"
+    ]
+  },
+  "스컹뿡": {
+    "speed": 74,
+    "national_no": 434,
+    "types": [
+      "poison",
+      "dark"
+    ]
+  },
+  "스컹탱크": {
+    "speed": 84,
+    "national_no": 435,
+    "types": [
+      "poison",
+      "dark"
+    ]
+  },
+  "동미러": {
+    "speed": 23,
+    "national_no": 436,
+    "types": [
+      "steel",
+      "psychic"
+    ]
+  },
+  "동탁군": {
+    "speed": 33,
+    "national_no": 437,
+    "types": [
+      "steel",
+      "psychic"
+    ]
+  },
+  "꼬지지": {
+    "speed": 10,
+    "national_no": 438,
+    "types": [
+      "rock"
+    ]
+  },
+  "흉내내": {
+    "speed": 60,
+    "national_no": 439,
+    "types": [
+      "psychic",
+      "fairy"
+    ]
+  },
+  "핑복": {
+    "speed": 30,
+    "national_no": 440,
+    "types": [
+      "normal"
+    ]
+  },
+  "페라페": {
+    "speed": 91,
+    "national_no": 441,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "화강돌": {
+    "speed": 35,
+    "national_no": 442,
+    "types": [
+      "ghost",
+      "dark"
+    ]
+  },
+  "딥상어동": {
+    "speed": 42,
+    "national_no": 443,
+    "types": [
+      "dragon",
+      "ground"
+    ]
+  },
+  "한바이트": {
+    "speed": 82,
+    "national_no": 444,
+    "types": [
+      "dragon",
+      "ground"
+    ]
+  },
+  "한카리아스": {
+    "speed": 102,
+    "national_no": 445,
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "megas": [
+      {
+        "slug": "garchomp-mega",
+        "ko_name": null,
+        "speed": 92,
+        "types": [
+          "dragon",
+          "ground"
+        ]
+      },
+      {
+        "slug": "garchomp-mega-z",
+        "ko_name": null,
+        "speed": 151,
+        "types": [
+          "dragon"
+        ]
+      }
+    ]
+  },
+  "먹고자": {
+    "speed": 5,
+    "national_no": 446,
+    "types": [
+      "normal"
+    ]
+  },
+  "리오르": {
+    "speed": 60,
+    "national_no": 447,
+    "types": [
+      "fighting"
+    ]
+  },
+  "루카리오": {
+    "speed": 90,
+    "national_no": 448,
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "megas": [
+      {
+        "slug": "lucario-mega",
+        "ko_name": null,
+        "speed": 112,
+        "types": [
+          "fighting",
+          "steel"
+        ]
+      },
+      {
+        "slug": "lucario-mega-z",
+        "ko_name": null,
+        "speed": 151,
+        "types": [
+          "fighting",
+          "steel"
+        ]
+      }
+    ]
+  },
+  "히포포타스": {
+    "speed": 32,
+    "national_no": 449,
+    "types": [
+      "ground"
+    ]
+  },
+  "하마돈": {
+    "speed": 47,
+    "national_no": 450,
+    "types": [
+      "ground"
+    ]
+  },
+  "스콜피": {
+    "speed": 65,
+    "national_no": 451,
+    "types": [
+      "poison",
+      "bug"
+    ]
+  },
+  "드래피온": {
+    "speed": 95,
+    "national_no": 452,
+    "types": [
+      "poison",
+      "dark"
+    ]
+  },
+  "삐딱구리": {
+    "speed": 50,
+    "national_no": 453,
+    "types": [
+      "poison",
+      "fighting"
+    ]
+  },
+  "독개굴": {
+    "speed": 85,
+    "national_no": 454,
+    "types": [
+      "poison",
+      "fighting"
+    ]
+  },
+  "무스틈니": {
+    "speed": 46,
+    "national_no": 455,
+    "types": [
+      "grass"
+    ]
+  },
+  "형광어": {
+    "speed": 66,
+    "national_no": 456,
+    "types": [
+      "water"
+    ]
+  },
+  "네오라이트": {
+    "speed": 91,
+    "national_no": 457,
+    "types": [
+      "water"
+    ]
+  },
+  "타만타": {
+    "speed": 50,
+    "national_no": 458,
+    "types": [
+      "water",
+      "flying"
+    ]
+  },
+  "눈쓰개": {
+    "speed": 40,
+    "national_no": 459,
+    "types": [
+      "grass",
+      "ice"
+    ]
+  },
+  "눈설왕": {
+    "speed": 60,
+    "national_no": 460,
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "megas": [
+      {
+        "slug": "abomasnow-mega",
+        "ko_name": null,
+        "speed": 30,
+        "types": [
+          "grass",
+          "ice"
+        ]
+      }
+    ]
+  },
+  "포푸니라": {
+    "speed": 125,
+    "national_no": 461,
+    "types": [
+      "dark",
+      "ice"
+    ]
+  },
+  "자포코일": {
+    "speed": 60,
+    "national_no": 462,
+    "types": [
+      "electric",
+      "steel"
+    ]
+  },
+  "내룸벨트": {
+    "speed": 50,
+    "national_no": 463,
+    "types": [
+      "normal"
+    ]
+  },
+  "거대코뿌리": {
+    "speed": 40,
+    "national_no": 464,
+    "types": [
+      "ground",
+      "rock"
+    ]
+  },
+  "덩쿠림보": {
+    "speed": 50,
+    "national_no": 465,
+    "types": [
+      "grass"
+    ]
+  },
+  "에레키블": {
+    "speed": 95,
+    "national_no": 466,
+    "types": [
+      "electric"
+    ]
+  },
+  "마그마번": {
+    "speed": 83,
+    "national_no": 467,
+    "types": [
+      "fire"
+    ]
+  },
+  "토게키스": {
+    "speed": 80,
+    "national_no": 468,
+    "types": [
+      "fairy",
+      "flying"
+    ]
+  },
+  "메가자리": {
+    "speed": 95,
+    "national_no": 469,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "megas": [
+      {
+        "slug": "yanmega",
+        "ko_name": null,
+        "speed": 95,
+        "types": [
+          "bug",
+          "flying"
+        ]
+      }
+    ]
+  },
+  "리피아": {
+    "speed": 95,
+    "national_no": 470,
+    "types": [
+      "grass"
+    ]
+  },
+  "글레이시아": {
+    "speed": 65,
+    "national_no": 471,
+    "types": [
+      "ice"
+    ]
+  },
+  "글라이온": {
+    "speed": 95,
+    "national_no": 472,
+    "types": [
+      "ground",
+      "flying"
+    ]
+  },
+  "맘모꾸리": {
+    "speed": 80,
+    "national_no": 473,
+    "types": [
+      "ice",
+      "ground"
+    ]
+  },
+  "폴리곤Z": {
+    "speed": 90,
+    "national_no": 474,
+    "types": [
+      "normal"
+    ]
+  },
+  "엘레이드": {
+    "speed": 80,
+    "national_no": 475,
+    "types": [
+      "psychic",
+      "fighting"
+    ],
+    "megas": [
+      {
+        "slug": "gallade-mega",
+        "ko_name": null,
+        "speed": 110,
+        "types": [
+          "psychic",
+          "fighting"
+        ]
+      }
+    ]
+  },
+  "대코파스": {
+    "speed": 40,
+    "national_no": 476,
+    "types": [
+      "rock",
+      "steel"
+    ]
+  },
+  "야느와르몽": {
+    "speed": 45,
+    "national_no": 477,
+    "types": [
+      "ghost"
+    ]
+  },
+  "눈여아": {
+    "speed": 110,
+    "national_no": 478,
+    "types": [
+      "ice",
+      "ghost"
+    ],
+    "megas": [
+      {
+        "slug": "froslass-mega",
+        "ko_name": null,
+        "speed": 120,
+        "types": [
+          "ice",
+          "ghost"
+        ]
+      }
+    ]
+  },
+  "로토무": {
+    "speed": 91,
+    "national_no": 479,
+    "types": [
+      "electric",
+      "ghost"
+    ]
+  },
+  "유크시": {
+    "speed": 95,
+    "national_no": 480,
+    "types": [
+      "psychic"
+    ]
+  },
+  "엠라이트": {
+    "speed": 80,
+    "national_no": 481,
+    "types": [
+      "psychic"
+    ]
+  },
+  "아그놈": {
+    "speed": 115,
+    "national_no": 482,
+    "types": [
+      "psychic"
+    ]
+  },
+  "디아루가": {
+    "speed": 90,
+    "national_no": 483,
+    "types": [
+      "steel",
+      "dragon"
+    ]
+  },
+  "펄기아": {
+    "speed": 100,
+    "national_no": 484,
+    "types": [
+      "water",
+      "dragon"
+    ]
+  },
+  "히드런": {
+    "speed": 77,
+    "national_no": 485,
+    "types": [
+      "fire",
+      "steel"
+    ],
+    "megas": [
+      {
+        "slug": "heatran-mega",
+        "ko_name": null,
+        "speed": 67,
+        "types": [
+          "fire",
+          "steel"
+        ]
+      }
+    ]
+  },
+  "레지기가스": {
+    "speed": 100,
+    "national_no": 486,
+    "types": [
+      "normal"
+    ]
+  },
+  "기라티나": {
+    "speed": 90,
+    "national_no": 487,
+    "types": [
+      "ghost",
+      "dragon"
+    ]
+  },
+  "크레세리아": {
+    "speed": 85,
+    "national_no": 488,
+    "types": [
+      "psychic"
+    ]
+  },
+  "피오네": {
+    "speed": 80,
+    "national_no": 489,
+    "types": [
+      "water"
+    ]
+  },
+  "마나피": {
+    "speed": 100,
+    "national_no": 490,
+    "types": [
+      "water"
+    ]
+  },
+  "다크라이": {
+    "speed": 125,
+    "national_no": 491,
+    "types": [
+      "dark"
+    ],
+    "megas": [
+      {
+        "slug": "darkrai-mega",
+        "ko_name": null,
+        "speed": 85,
+        "types": [
+          "dark"
+        ]
+      }
+    ]
+  },
+  "쉐이미": {
+    "speed": 100,
+    "national_no": 492,
+    "types": [
+      "grass"
+    ]
+  },
+  "아르세우스": {
+    "speed": 120,
+    "national_no": 493,
+    "types": [
+      "normal"
+    ]
+  },
+  "비크티니": {
+    "speed": 100,
+    "national_no": 494,
+    "types": [
+      "psychic",
+      "fire"
+    ]
+  },
+  "주리비얀": {
+    "speed": 63,
+    "national_no": 495,
+    "types": [
+      "grass"
+    ]
+  },
+  "샤비": {
+    "speed": 83,
+    "national_no": 496,
+    "types": [
+      "grass"
+    ]
+  },
+  "샤로다": {
+    "speed": 113,
+    "national_no": 497,
+    "types": [
+      "grass"
+    ]
+  },
+  "뚜꾸리": {
+    "speed": 45,
+    "national_no": 498,
+    "types": [
+      "fire"
+    ]
+  },
+  "차오꿀": {
+    "speed": 55,
+    "national_no": 499,
+    "types": [
+      "fire",
+      "fighting"
+    ]
+  },
+  "염무왕": {
+    "speed": 65,
+    "national_no": 500,
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "megas": [
+      {
+        "slug": "emboar-mega",
+        "ko_name": null,
+        "speed": 75,
+        "types": [
+          "fire",
+          "fighting"
+        ]
+      }
+    ]
+  },
+  "수댕이": {
+    "speed": 45,
+    "national_no": 501,
+    "types": [
+      "water"
+    ]
+  },
+  "쌍검자비": {
+    "speed": 60,
+    "national_no": 502,
+    "types": [
+      "water"
+    ]
+  },
+  "대검귀": {
+    "speed": 70,
+    "national_no": 503,
+    "types": [
+      "water"
+    ]
+  },
+  "보르쥐": {
+    "speed": 42,
+    "national_no": 504,
+    "types": [
+      "normal"
+    ]
+  },
+  "보르그": {
+    "speed": 77,
+    "national_no": 505,
+    "types": [
+      "normal"
+    ]
+  },
+  "요테리": {
+    "speed": 55,
+    "national_no": 506,
+    "types": [
+      "normal"
+    ]
+  },
+  "하데리어": {
+    "speed": 60,
+    "national_no": 507,
+    "types": [
+      "normal"
+    ]
+  },
+  "바랜드": {
+    "speed": 80,
+    "national_no": 508,
+    "types": [
+      "normal"
+    ]
+  },
+  "쌔비냥": {
+    "speed": 66,
+    "national_no": 509,
+    "types": [
+      "dark"
+    ]
+  },
+  "레파르다스": {
+    "speed": 106,
+    "national_no": 510,
+    "types": [
+      "dark"
+    ]
+  },
+  "야나프": {
+    "speed": 64,
+    "national_no": 511,
+    "types": [
+      "grass"
+    ]
+  },
+  "야나키": {
+    "speed": 101,
+    "national_no": 512,
+    "types": [
+      "grass"
+    ]
+  },
+  "바오프": {
+    "speed": 64,
+    "national_no": 513,
+    "types": [
+      "fire"
+    ]
+  },
+  "바오키": {
+    "speed": 101,
+    "national_no": 514,
+    "types": [
+      "fire"
+    ]
+  },
+  "앗차프": {
+    "speed": 64,
+    "national_no": 515,
+    "types": [
+      "water"
+    ]
+  },
+  "앗차키": {
+    "speed": 101,
+    "national_no": 516,
+    "types": [
+      "water"
+    ]
+  },
+  "몽나": {
+    "speed": 24,
+    "national_no": 517,
+    "types": [
+      "psychic"
+    ]
+  },
+  "몽얌나": {
+    "speed": 29,
+    "national_no": 518,
+    "types": [
+      "psychic"
+    ]
+  },
+  "콩둘기": {
+    "speed": 43,
+    "national_no": 519,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "유토브": {
+    "speed": 65,
+    "national_no": 520,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "켄호로우": {
+    "speed": 93,
+    "national_no": 521,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "줄뮤마": {
+    "speed": 76,
+    "national_no": 522,
+    "types": [
+      "electric"
+    ]
+  },
+  "제브라이카": {
+    "speed": 116,
+    "national_no": 523,
+    "types": [
+      "electric"
+    ]
+  },
+  "단굴": {
+    "speed": 15,
+    "national_no": 524,
+    "types": [
+      "rock"
+    ]
+  },
+  "암트르": {
+    "speed": 20,
+    "national_no": 525,
+    "types": [
+      "rock"
+    ]
+  },
+  "기가이어스": {
+    "speed": 25,
+    "national_no": 526,
+    "types": [
+      "rock"
+    ]
+  },
+  "또르박쥐": {
+    "speed": 72,
+    "national_no": 527,
+    "types": [
+      "psychic",
+      "flying"
+    ]
+  },
+  "맘박쥐": {
+    "speed": 114,
+    "national_no": 528,
+    "types": [
+      "psychic",
+      "flying"
+    ]
+  },
+  "두더류": {
+    "speed": 68,
+    "national_no": 529,
+    "types": [
+      "ground"
+    ]
+  },
+  "몰드류": {
+    "speed": 88,
+    "national_no": 530,
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "megas": [
+      {
+        "slug": "excadrill-mega",
+        "ko_name": null,
+        "speed": 103,
+        "types": [
+          "ground",
+          "steel"
+        ]
+      }
+    ]
+  },
+  "다부니": {
+    "speed": 50,
+    "national_no": 531,
+    "types": [
+      "normal"
+    ],
+    "megas": [
+      {
+        "slug": "audino-mega",
+        "ko_name": null,
+        "speed": 50,
+        "types": [
+          "normal",
+          "fairy"
+        ]
+      }
+    ]
+  },
+  "으랏차": {
+    "speed": 35,
+    "national_no": 532,
+    "types": [
+      "fighting"
+    ]
+  },
+  "토쇠골": {
+    "speed": 40,
+    "national_no": 533,
+    "types": [
+      "fighting"
+    ]
+  },
+  "노보청": {
+    "speed": 45,
+    "national_no": 534,
+    "types": [
+      "fighting"
+    ]
+  },
+  "동챙이": {
+    "speed": 64,
+    "national_no": 535,
+    "types": [
+      "water"
+    ]
+  },
+  "두까비": {
+    "speed": 69,
+    "national_no": 536,
+    "types": [
+      "water",
+      "ground"
+    ]
+  },
+  "두빅굴": {
+    "speed": 74,
+    "national_no": 537,
+    "types": [
+      "water",
+      "ground"
+    ]
+  },
+  "던지미": {
+    "speed": 45,
+    "national_no": 538,
+    "types": [
+      "fighting"
+    ]
+  },
+  "타격귀": {
+    "speed": 85,
+    "national_no": 539,
+    "types": [
+      "fighting"
+    ]
+  },
+  "두르보": {
+    "speed": 42,
+    "national_no": 540,
+    "types": [
+      "bug",
+      "grass"
+    ]
+  },
+  "두르쿤": {
+    "speed": 42,
+    "national_no": 541,
+    "types": [
+      "bug",
+      "grass"
+    ]
+  },
+  "모아머": {
+    "speed": 92,
+    "national_no": 542,
+    "types": [
+      "bug",
+      "grass"
+    ]
+  },
+  "마디네": {
+    "speed": 57,
+    "national_no": 543,
+    "types": [
+      "bug",
+      "poison"
+    ]
+  },
+  "휠구": {
+    "speed": 47,
+    "national_no": 544,
+    "types": [
+      "bug",
+      "poison"
+    ]
+  },
+  "펜드라": {
+    "speed": 112,
+    "national_no": 545,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "megas": [
+      {
+        "slug": "scolipede-mega",
+        "ko_name": null,
+        "speed": 62,
+        "types": [
+          "bug",
+          "poison"
+        ]
+      }
+    ]
+  },
+  "소미안": {
+    "speed": 66,
+    "national_no": 546,
+    "types": [
+      "grass",
+      "fairy"
+    ]
+  },
+  "엘풍": {
+    "speed": 116,
+    "national_no": 547,
+    "types": [
+      "grass",
+      "fairy"
+    ]
+  },
+  "치릴리": {
+    "speed": 30,
+    "national_no": 548,
+    "types": [
+      "grass"
+    ]
+  },
+  "드레디어": {
+    "speed": 90,
+    "national_no": 549,
+    "types": [
+      "grass"
+    ]
+  },
+  "배쓰나이": {
+    "speed": 98,
+    "national_no": 550,
+    "types": [
+      "water"
+    ]
+  },
+  "깜눈크": {
+    "speed": 65,
+    "national_no": 551,
+    "types": [
+      "ground",
+      "dark"
+    ]
+  },
+  "악비르": {
+    "speed": 74,
+    "national_no": 552,
+    "types": [
+      "ground",
+      "dark"
+    ]
+  },
+  "악비아르": {
+    "speed": 92,
+    "national_no": 553,
+    "types": [
+      "ground",
+      "dark"
+    ]
+  },
+  "달막화": {
+    "speed": 50,
+    "national_no": 554,
+    "types": [
+      "fire"
+    ]
+  },
+  "불비달마": {
+    "speed": 95,
+    "national_no": 555,
+    "types": [
+      "fire"
+    ]
+  },
+  "마라카치": {
+    "speed": 60,
+    "national_no": 556,
+    "types": [
+      "grass"
+    ]
+  },
+  "돌살이": {
+    "speed": 55,
+    "national_no": 557,
+    "types": [
+      "bug",
+      "rock"
+    ]
+  },
+  "암팰리스": {
+    "speed": 45,
+    "national_no": 558,
+    "types": [
+      "bug",
+      "rock"
+    ]
+  },
+  "곤율랭": {
+    "speed": 48,
+    "national_no": 559,
+    "types": [
+      "dark",
+      "fighting"
+    ]
+  },
+  "곤율거니": {
+    "speed": 58,
+    "national_no": 560,
+    "types": [
+      "dark",
+      "fighting"
+    ],
+    "megas": [
+      {
+        "slug": "scrafty-mega",
+        "ko_name": null,
+        "speed": 68,
+        "types": [
+          "dark",
+          "fighting"
+        ]
+      }
+    ]
+  },
+  "심보러": {
+    "speed": 97,
+    "national_no": 561,
+    "types": [
+      "psychic",
+      "flying"
+    ]
+  },
+  "데스마스": {
+    "speed": 30,
+    "national_no": 562,
+    "types": [
+      "ghost"
+    ]
+  },
+  "데스니칸": {
+    "speed": 30,
+    "national_no": 563,
+    "types": [
+      "ghost"
+    ]
+  },
+  "프로토가": {
+    "speed": 22,
+    "national_no": 564,
+    "types": [
+      "water",
+      "rock"
+    ]
+  },
+  "늑골라": {
+    "speed": 32,
+    "national_no": 565,
+    "types": [
+      "water",
+      "rock"
+    ]
+  },
+  "아켄": {
+    "speed": 70,
+    "national_no": 566,
+    "types": [
+      "rock",
+      "flying"
+    ]
+  },
+  "아케오스": {
+    "speed": 110,
+    "national_no": 567,
+    "types": [
+      "rock",
+      "flying"
+    ]
+  },
+  "깨봉이": {
+    "speed": 65,
+    "national_no": 568,
+    "types": [
+      "poison"
+    ]
+  },
+  "더스트나": {
+    "speed": 75,
+    "national_no": 569,
+    "types": [
+      "poison"
+    ]
+  },
+  "조로아": {
+    "speed": 65,
+    "national_no": 570,
+    "types": [
+      "dark"
+    ]
+  },
+  "조로아크": {
+    "speed": 105,
+    "national_no": 571,
+    "types": [
+      "dark"
+    ]
+  },
+  "치라미": {
+    "speed": 75,
+    "national_no": 572,
+    "types": [
+      "normal"
+    ]
+  },
+  "치라치노": {
+    "speed": 115,
+    "national_no": 573,
+    "types": [
+      "normal"
+    ]
+  },
+  "고디탱": {
+    "speed": 45,
+    "national_no": 574,
+    "types": [
+      "psychic"
+    ]
+  },
+  "고디보미": {
+    "speed": 55,
+    "national_no": 575,
+    "types": [
+      "psychic"
+    ]
+  },
+  "고디모아젤": {
+    "speed": 65,
+    "national_no": 576,
+    "types": [
+      "psychic"
+    ]
+  },
+  "유니란": {
+    "speed": 20,
+    "national_no": 577,
+    "types": [
+      "psychic"
+    ]
+  },
+  "듀란": {
+    "speed": 30,
+    "national_no": 578,
+    "types": [
+      "psychic"
+    ]
+  },
+  "란쿨루스": {
+    "speed": 30,
+    "national_no": 579,
+    "types": [
+      "psychic"
+    ]
+  },
+  "꼬지보리": {
+    "speed": 55,
+    "national_no": 580,
+    "types": [
+      "water",
+      "flying"
+    ]
+  },
+  "스완나": {
+    "speed": 98,
+    "national_no": 581,
+    "types": [
+      "water",
+      "flying"
+    ]
+  },
+  "바닐프티": {
+    "speed": 44,
+    "national_no": 582,
+    "types": [
+      "ice"
+    ]
+  },
+  "바닐리치": {
+    "speed": 59,
+    "national_no": 583,
+    "types": [
+      "ice"
+    ]
+  },
+  "배바닐라": {
+    "speed": 79,
+    "national_no": 584,
+    "types": [
+      "ice"
+    ]
+  },
+  "사철록": {
+    "speed": 75,
+    "national_no": 585,
+    "types": [
+      "normal",
+      "grass"
+    ]
+  },
+  "바라철록": {
+    "speed": 95,
+    "national_no": 586,
+    "types": [
+      "normal",
+      "grass"
+    ]
+  },
+  "에몽가": {
+    "speed": 103,
+    "national_no": 587,
+    "types": [
+      "electric",
+      "flying"
+    ]
+  },
+  "딱정곤": {
+    "speed": 60,
+    "national_no": 588,
+    "types": [
+      "bug"
+    ]
+  },
+  "슈바르고": {
+    "speed": 20,
+    "national_no": 589,
+    "types": [
+      "bug",
+      "steel"
+    ]
+  },
+  "깜놀버슬": {
+    "speed": 15,
+    "national_no": 590,
+    "types": [
+      "grass",
+      "poison"
+    ]
+  },
+  "뽀록나": {
+    "speed": 30,
+    "national_no": 591,
+    "types": [
+      "grass",
+      "poison"
+    ]
+  },
+  "탱그릴": {
+    "speed": 40,
+    "national_no": 592,
+    "types": [
+      "water",
+      "ghost"
+    ]
+  },
+  "탱탱겔": {
+    "speed": 60,
+    "national_no": 593,
+    "types": [
+      "water",
+      "ghost"
+    ]
+  },
+  "맘복치": {
+    "speed": 65,
+    "national_no": 594,
+    "types": [
+      "water"
+    ]
+  },
+  "파쪼옥": {
+    "speed": 65,
+    "national_no": 595,
+    "types": [
+      "bug",
+      "electric"
+    ]
+  },
+  "전툴라": {
+    "speed": 108,
+    "national_no": 596,
+    "types": [
+      "bug",
+      "electric"
+    ]
+  },
+  "철시드": {
+    "speed": 10,
+    "national_no": 597,
+    "types": [
+      "grass",
+      "steel"
+    ]
+  },
+  "너트령": {
+    "speed": 20,
+    "national_no": 598,
+    "types": [
+      "grass",
+      "steel"
+    ]
+  },
+  "기어르": {
+    "speed": 30,
+    "national_no": 599,
+    "types": [
+      "steel"
+    ]
+  },
+  "기기어르": {
+    "speed": 50,
+    "national_no": 600,
+    "types": [
+      "steel"
+    ]
+  },
+  "기기기어르": {
+    "speed": 90,
+    "national_no": 601,
+    "types": [
+      "steel"
+    ]
+  },
+  "저리어": {
+    "speed": 60,
+    "national_no": 602,
+    "types": [
+      "electric"
+    ]
+  },
+  "저리릴": {
+    "speed": 40,
+    "national_no": 603,
+    "types": [
+      "electric"
+    ]
+  },
+  "저리더프": {
+    "speed": 50,
+    "national_no": 604,
+    "types": [
+      "electric"
+    ],
+    "megas": [
+      {
+        "slug": "eelektross-mega",
+        "ko_name": null,
+        "speed": 80,
+        "types": [
+          "electric"
+        ]
+      }
+    ]
+  },
+  "리그레": {
+    "speed": 30,
+    "national_no": 605,
+    "types": [
+      "psychic"
+    ]
+  },
+  "벰크": {
+    "speed": 40,
+    "national_no": 606,
+    "types": [
+      "psychic"
+    ]
+  },
+  "불켜미": {
+    "speed": 20,
+    "national_no": 607,
+    "types": [
+      "ghost",
+      "fire"
+    ]
+  },
+  "램프라": {
+    "speed": 55,
+    "national_no": 608,
+    "types": [
+      "ghost",
+      "fire"
+    ]
+  },
+  "샹델라": {
+    "speed": 80,
+    "national_no": 609,
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "megas": [
+      {
+        "slug": "chandelure-mega",
+        "ko_name": null,
+        "speed": 90,
+        "types": [
+          "ghost",
+          "fire"
+        ]
+      }
+    ]
+  },
+  "터검니": {
+    "speed": 57,
+    "national_no": 610,
+    "types": [
+      "dragon"
+    ]
+  },
+  "액슨도": {
+    "speed": 67,
+    "national_no": 611,
+    "types": [
+      "dragon"
+    ]
+  },
+  "액스라이즈": {
+    "speed": 97,
+    "national_no": 612,
+    "types": [
+      "dragon"
+    ]
+  },
+  "코고미": {
+    "speed": 40,
+    "national_no": 613,
+    "types": [
+      "ice"
+    ]
+  },
+  "툰베어": {
+    "speed": 50,
+    "national_no": 614,
+    "types": [
+      "ice"
+    ]
+  },
+  "프리지오": {
+    "speed": 105,
+    "national_no": 615,
+    "types": [
+      "ice"
+    ]
+  },
+  "쪼마리": {
+    "speed": 25,
+    "national_no": 616,
+    "types": [
+      "bug"
+    ]
+  },
+  "어지리더": {
+    "speed": 145,
+    "national_no": 617,
+    "types": [
+      "bug"
+    ]
+  },
+  "메더": {
+    "speed": 32,
+    "national_no": 618,
+    "types": [
+      "ground",
+      "electric"
+    ]
+  },
+  "비조푸": {
+    "speed": 65,
+    "national_no": 619,
+    "types": [
+      "fighting"
+    ]
+  },
+  "비조도": {
+    "speed": 105,
+    "national_no": 620,
+    "types": [
+      "fighting"
+    ]
+  },
+  "크리만": {
+    "speed": 48,
+    "national_no": 621,
+    "types": [
+      "dragon"
+    ]
+  },
+  "골비람": {
+    "speed": 35,
+    "national_no": 622,
+    "types": [
+      "ground",
+      "ghost"
+    ]
+  },
+  "골루그": {
+    "speed": 55,
+    "national_no": 623,
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "megas": [
+      {
+        "slug": "golurk-mega",
+        "ko_name": null,
+        "speed": 55,
+        "types": [
+          "ground",
+          "ghost"
+        ]
+      }
+    ]
+  },
+  "자망칼": {
+    "speed": 60,
+    "national_no": 624,
+    "types": [
+      "dark",
+      "steel"
+    ]
+  },
+  "절각참": {
+    "speed": 70,
+    "national_no": 625,
+    "types": [
+      "dark",
+      "steel"
+    ]
+  },
+  "버프론": {
+    "speed": 55,
+    "national_no": 626,
+    "types": [
+      "normal"
+    ]
+  },
+  "수리둥보": {
+    "speed": 60,
+    "national_no": 627,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "워글": {
+    "speed": 80,
+    "national_no": 628,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "벌차이": {
+    "speed": 60,
+    "national_no": 629,
+    "types": [
+      "dark",
+      "flying"
+    ]
+  },
+  "버랜지나": {
+    "speed": 80,
+    "national_no": 630,
+    "types": [
+      "dark",
+      "flying"
+    ]
+  },
+  "앤티골": {
+    "speed": 65,
+    "national_no": 631,
+    "types": [
+      "fire"
+    ]
+  },
+  "아이앤트": {
+    "speed": 109,
+    "national_no": 632,
+    "types": [
+      "bug",
+      "steel"
+    ]
+  },
+  "모노두": {
+    "speed": 38,
+    "national_no": 633,
+    "types": [
+      "dark",
+      "dragon"
+    ]
+  },
+  "디헤드": {
+    "speed": 58,
+    "national_no": 634,
+    "types": [
+      "dark",
+      "dragon"
+    ]
+  },
+  "삼삼드래": {
+    "speed": 98,
+    "national_no": 635,
+    "types": [
+      "dark",
+      "dragon"
+    ]
+  },
+  "활화르바": {
+    "speed": 60,
+    "national_no": 636,
+    "types": [
+      "bug",
+      "fire"
+    ]
+  },
+  "불카모스": {
+    "speed": 100,
+    "national_no": 637,
+    "types": [
+      "bug",
+      "fire"
+    ]
+  },
+  "코바르온": {
+    "speed": 108,
+    "national_no": 638,
+    "types": [
+      "steel",
+      "fighting"
+    ]
+  },
+  "테라키온": {
+    "speed": 108,
+    "national_no": 639,
+    "types": [
+      "rock",
+      "fighting"
+    ]
+  },
+  "비리디온": {
+    "speed": 108,
+    "national_no": 640,
+    "types": [
+      "grass",
+      "fighting"
+    ]
+  },
+  "토네로스": {
+    "speed": 111,
+    "national_no": 641,
+    "types": [
+      "flying"
+    ]
+  },
+  "볼트로스": {
+    "speed": 111,
+    "national_no": 642,
+    "types": [
+      "electric",
+      "flying"
+    ]
+  },
+  "레시라무": {
+    "speed": 90,
+    "national_no": 643,
+    "types": [
+      "dragon",
+      "fire"
+    ]
+  },
+  "제크로무": {
+    "speed": 90,
+    "national_no": 644,
+    "types": [
+      "dragon",
+      "electric"
+    ]
+  },
+  "랜드로스": {
+    "speed": 101,
+    "national_no": 645,
+    "types": [
+      "ground",
+      "flying"
+    ]
+  },
+  "큐레무": {
+    "speed": 95,
+    "national_no": 646,
+    "types": [
+      "dragon",
+      "ice"
+    ]
+  },
+  "케르디오": {
+    "speed": 108,
+    "national_no": 647,
+    "types": [
+      "water",
+      "fighting"
+    ]
+  },
+  "메로엣타": {
+    "speed": 90,
+    "national_no": 648,
+    "types": [
+      "normal",
+      "psychic"
+    ]
+  },
+  "게노세크트": {
+    "speed": 99,
+    "national_no": 649,
+    "types": [
+      "bug",
+      "steel"
+    ]
+  },
+  "도치마론": {
+    "speed": 38,
+    "national_no": 650,
+    "types": [
+      "grass"
+    ]
+  },
+  "도치보구": {
+    "speed": 57,
+    "national_no": 651,
+    "types": [
+      "grass"
+    ]
+  },
+  "브리가론": {
+    "speed": 64,
+    "national_no": 652,
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "megas": [
+      {
+        "slug": "chesnaught-mega",
+        "ko_name": null,
+        "speed": 44,
+        "types": [
+          "grass",
+          "fighting"
+        ]
+      }
+    ]
+  },
+  "푸호꼬": {
+    "speed": 60,
+    "national_no": 653,
+    "types": [
+      "fire"
+    ]
+  },
+  "테르나": {
+    "speed": 73,
+    "national_no": 654,
+    "types": [
+      "fire"
+    ]
+  },
+  "마폭시": {
+    "speed": 104,
+    "national_no": 655,
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "megas": [
+      {
+        "slug": "delphox-mega",
+        "ko_name": null,
+        "speed": 134,
+        "types": [
+          "fire",
+          "psychic"
+        ]
+      }
+    ]
+  },
+  "개구마르": {
+    "speed": 71,
+    "national_no": 656,
+    "types": [
+      "water"
+    ]
+  },
+  "개굴반장": {
+    "speed": 97,
+    "national_no": 657,
+    "types": [
+      "water"
+    ]
+  },
+  "개굴닌자": {
+    "speed": 122,
+    "national_no": 658,
+    "types": [
+      "water",
+      "dark"
+    ],
+    "megas": [
+      {
+        "slug": "greninja-mega",
+        "ko_name": null,
+        "speed": 142,
+        "types": [
+          "water",
+          "dark"
+        ]
+      }
+    ]
+  },
+  "파르빗": {
+    "speed": 57,
+    "national_no": 659,
+    "types": [
+      "normal"
+    ]
+  },
+  "파르토": {
+    "speed": 78,
+    "national_no": 660,
+    "types": [
+      "normal",
+      "ground"
+    ]
+  },
+  "화살꼬빈": {
+    "speed": 62,
+    "national_no": 661,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "불화살빈": {
+    "speed": 84,
+    "national_no": 662,
+    "types": [
+      "fire",
+      "flying"
+    ]
+  },
+  "파이어로": {
+    "speed": 126,
+    "national_no": 663,
+    "types": [
+      "fire",
+      "flying"
+    ]
+  },
+  "분이벌레": {
+    "speed": 35,
+    "national_no": 664,
+    "types": [
+      "bug"
+    ]
+  },
+  "분떠도리": {
+    "speed": 29,
+    "national_no": 665,
+    "types": [
+      "bug"
+    ]
+  },
+  "비비용": {
+    "speed": 89,
+    "national_no": 666,
+    "types": [
+      "bug",
+      "flying"
+    ]
+  },
+  "레오꼬": {
+    "speed": 72,
+    "national_no": 667,
+    "types": [
+      "fire",
+      "normal"
+    ]
+  },
+  "화염레오": {
+    "speed": 106,
+    "national_no": 668,
+    "types": [
+      "fire",
+      "normal"
+    ],
+    "megas": [
+      {
+        "slug": "pyroar-mega",
+        "ko_name": null,
+        "speed": 126,
+        "types": [
+          "fire",
+          "normal"
+        ]
+      }
+    ]
+  },
+  "플라베베": {
+    "speed": 42,
+    "national_no": 669,
+    "types": [
+      "fairy"
+    ]
+  },
+  "플라엣테": {
+    "speed": 52,
+    "national_no": 670,
+    "types": [
+      "fairy"
+    ],
+    "megas": [
+      {
+        "slug": "floette-mega",
+        "ko_name": null,
+        "speed": 102,
+        "types": [
+          "fairy"
+        ]
+      }
+    ]
+  },
+  "플라제스": {
+    "speed": 75,
+    "national_no": 671,
+    "types": [
+      "fairy"
+    ]
+  },
+  "메이클": {
+    "speed": 52,
+    "national_no": 672,
+    "types": [
+      "grass"
+    ]
+  },
+  "고고트": {
+    "speed": 68,
+    "national_no": 673,
+    "types": [
+      "grass"
+    ]
+  },
+  "판짱": {
+    "speed": 43,
+    "national_no": 674,
+    "types": [
+      "fighting"
+    ]
+  },
+  "부란다": {
+    "speed": 58,
+    "national_no": 675,
+    "types": [
+      "fighting",
+      "dark"
+    ]
+  },
+  "트리미앙": {
+    "speed": 102,
+    "national_no": 676,
+    "types": [
+      "normal"
+    ]
+  },
+  "냐스퍼": {
+    "speed": 68,
+    "national_no": 677,
+    "types": [
+      "psychic"
+    ]
+  },
+  "냐오닉스": {
+    "speed": 104,
+    "national_no": 678,
+    "types": [
+      "psychic"
+    ],
+    "megas": [
+      {
+        "slug": "meowstic-mega",
+        "ko_name": null,
+        "speed": 124,
+        "types": [
+          "psychic"
+        ]
+      }
+    ]
+  },
+  "단칼빙": {
+    "speed": 28,
+    "national_no": 679,
+    "types": [
+      "steel",
+      "ghost"
+    ]
+  },
+  "쌍검킬": {
+    "speed": 35,
+    "national_no": 680,
+    "types": [
+      "steel",
+      "ghost"
+    ]
+  },
+  "킬가르도": {
+    "speed": 60,
+    "national_no": 681,
+    "types": [
+      "steel",
+      "ghost"
+    ]
+  },
+  "슈쁘": {
+    "speed": 23,
+    "national_no": 682,
+    "types": [
+      "fairy"
+    ]
+  },
+  "프레프티르": {
+    "speed": 29,
+    "national_no": 683,
+    "types": [
+      "fairy"
+    ]
+  },
+  "나룸퍼프": {
+    "speed": 49,
+    "national_no": 684,
+    "types": [
+      "fairy"
+    ]
+  },
+  "나루림": {
+    "speed": 72,
+    "national_no": 685,
+    "types": [
+      "fairy"
+    ]
+  },
+  "오케이징": {
+    "speed": 45,
+    "national_no": 686,
+    "types": [
+      "dark",
+      "psychic"
+    ]
+  },
+  "칼라마네로": {
+    "speed": 73,
+    "national_no": 687,
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "megas": [
+      {
+        "slug": "malamar-mega",
+        "ko_name": null,
+        "speed": 88,
+        "types": [
+          "dark",
+          "psychic"
+        ]
+      }
+    ]
+  },
+  "거북손손": {
+    "speed": 50,
+    "national_no": 688,
+    "types": [
+      "rock",
+      "water"
+    ]
+  },
+  "거북손데스": {
+    "speed": 68,
+    "national_no": 689,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "megas": [
+      {
+        "slug": "barbaracle-mega",
+        "ko_name": null,
+        "speed": 88,
+        "types": [
+          "rock",
+          "fighting"
+        ]
+      }
+    ]
+  },
+  "수레기": {
+    "speed": 30,
+    "national_no": 690,
+    "types": [
+      "poison",
+      "water"
+    ]
+  },
+  "드래캄": {
+    "speed": 44,
+    "national_no": 691,
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "megas": [
+      {
+        "slug": "dragalge-mega",
+        "ko_name": null,
+        "speed": 44,
+        "types": [
+          "poison",
+          "dragon"
+        ]
+      }
+    ]
+  },
+  "완철포": {
+    "speed": 44,
+    "national_no": 692,
+    "types": [
+      "water"
+    ]
+  },
+  "블로스터": {
+    "speed": 59,
+    "national_no": 693,
+    "types": [
+      "water"
+    ]
+  },
+  "목도리키텔": {
+    "speed": 70,
+    "national_no": 694,
+    "types": [
+      "electric",
+      "normal"
+    ]
+  },
+  "일레도리자드": {
+    "speed": 109,
+    "national_no": 695,
+    "types": [
+      "electric",
+      "normal"
+    ]
+  },
+  "티고라스": {
+    "speed": 48,
+    "national_no": 696,
+    "types": [
+      "rock",
+      "dragon"
+    ]
+  },
+  "견고라스": {
+    "speed": 71,
+    "national_no": 697,
+    "types": [
+      "rock",
+      "dragon"
+    ]
+  },
+  "아마루스": {
+    "speed": 46,
+    "national_no": 698,
+    "types": [
+      "rock",
+      "ice"
+    ]
+  },
+  "아마루르가": {
+    "speed": 58,
+    "national_no": 699,
+    "types": [
+      "rock",
+      "ice"
+    ]
+  },
+  "님피아": {
+    "speed": 60,
+    "national_no": 700,
+    "types": [
+      "fairy"
+    ]
+  },
+  "루차불": {
+    "speed": 118,
+    "national_no": 701,
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "megas": [
+      {
+        "slug": "hawlucha-mega",
+        "ko_name": null,
+        "speed": 118,
+        "types": [
+          "fighting",
+          "flying"
+        ]
+      }
+    ]
+  },
+  "데덴네": {
+    "speed": 101,
+    "national_no": 702,
+    "types": [
+      "electric",
+      "fairy"
+    ]
+  },
+  "멜리시": {
+    "speed": 50,
+    "national_no": 703,
+    "types": [
+      "rock",
+      "fairy"
+    ]
+  },
+  "미끄메라": {
+    "speed": 40,
+    "national_no": 704,
+    "types": [
+      "dragon"
+    ]
+  },
+  "미끄네일": {
+    "speed": 60,
+    "national_no": 705,
+    "types": [
+      "dragon"
+    ]
+  },
+  "미끄래곤": {
+    "speed": 80,
+    "national_no": 706,
+    "types": [
+      "dragon"
+    ]
+  },
+  "클레피": {
+    "speed": 75,
+    "national_no": 707,
+    "types": [
+      "steel",
+      "fairy"
+    ]
+  },
+  "나목령": {
+    "speed": 38,
+    "national_no": 708,
+    "types": [
+      "ghost",
+      "grass"
+    ]
+  },
+  "대로트": {
+    "speed": 56,
+    "national_no": 709,
+    "types": [
+      "ghost",
+      "grass"
+    ]
+  },
+  "호바귀": {
+    "speed": 51,
+    "national_no": 710,
+    "types": [
+      "ghost",
+      "grass"
+    ]
+  },
+  "펌킨인": {
+    "speed": 84,
+    "national_no": 711,
+    "types": [
+      "ghost",
+      "grass"
+    ]
+  },
+  "꽁어름": {
+    "speed": 28,
+    "national_no": 712,
+    "types": [
+      "ice"
+    ]
+  },
+  "크레베이스": {
+    "speed": 28,
+    "national_no": 713,
+    "types": [
+      "ice"
+    ]
+  },
+  "음뱃": {
+    "speed": 55,
+    "national_no": 714,
+    "types": [
+      "flying",
+      "dragon"
+    ]
+  },
+  "음번": {
+    "speed": 123,
+    "national_no": 715,
+    "types": [
+      "flying",
+      "dragon"
+    ]
+  },
+  "제르네아스": {
+    "speed": 99,
+    "national_no": 716,
+    "types": [
+      "fairy"
+    ]
+  },
+  "이벨타르": {
+    "speed": 99,
+    "national_no": 717,
+    "types": [
+      "dark",
+      "flying"
+    ]
+  },
+  "지가르데": {
+    "speed": 95,
+    "national_no": 718,
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "megas": [
+      {
+        "slug": "zygarde-mega",
+        "ko_name": null,
+        "speed": 100,
+        "types": [
+          "dragon",
+          "ground"
+        ]
+      }
+    ]
+  },
+  "디안시": {
+    "speed": 50,
+    "national_no": 719,
+    "types": [
+      "rock",
+      "fairy"
+    ],
+    "megas": [
+      {
+        "slug": "diancie-mega",
+        "ko_name": null,
+        "speed": 110,
+        "types": [
+          "rock",
+          "fairy"
+        ]
+      }
+    ]
+  },
+  "후파": {
+    "speed": 70,
+    "national_no": 720,
+    "types": [
+      "psychic",
+      "ghost"
+    ]
+  },
+  "볼케니온": {
+    "speed": 70,
+    "national_no": 721,
+    "types": [
+      "fire",
+      "water"
+    ]
+  },
+  "나몰빼미": {
+    "speed": 42,
+    "national_no": 722,
+    "types": [
+      "grass",
+      "flying"
+    ]
+  },
+  "빼미스로우": {
+    "speed": 52,
+    "national_no": 723,
+    "types": [
+      "grass",
+      "flying"
+    ]
+  },
+  "모크나이퍼": {
+    "speed": 70,
+    "national_no": 724,
+    "types": [
+      "grass",
+      "ghost"
+    ]
+  },
+  "냐오불": {
+    "speed": 70,
+    "national_no": 725,
+    "types": [
+      "fire"
+    ]
+  },
+  "냐오히트": {
+    "speed": 90,
+    "national_no": 726,
+    "types": [
+      "fire"
+    ]
+  },
+  "어흥염": {
+    "speed": 60,
+    "national_no": 727,
+    "types": [
+      "fire",
+      "dark"
+    ]
+  },
+  "누리공": {
+    "speed": 40,
+    "national_no": 728,
+    "types": [
+      "water"
+    ]
+  },
+  "키요공": {
+    "speed": 50,
+    "national_no": 729,
+    "types": [
+      "water"
+    ]
+  },
+  "누리레느": {
+    "speed": 60,
+    "national_no": 730,
+    "types": [
+      "water",
+      "fairy"
+    ]
+  },
+  "콕코구리": {
+    "speed": 65,
+    "national_no": 731,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "크라파": {
+    "speed": 75,
+    "national_no": 732,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "왕큰부리": {
+    "speed": 60,
+    "national_no": 733,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "영구스": {
+    "speed": 45,
+    "national_no": 734,
+    "types": [
+      "normal"
+    ]
+  },
+  "형사구스": {
+    "speed": 45,
+    "national_no": 735,
+    "types": [
+      "normal"
+    ]
+  },
+  "턱지충이": {
+    "speed": 46,
+    "national_no": 736,
+    "types": [
+      "bug"
+    ]
+  },
+  "전지충이": {
+    "speed": 36,
+    "national_no": 737,
+    "types": [
+      "bug",
+      "electric"
+    ]
+  },
+  "투구뿌논": {
+    "speed": 43,
+    "national_no": 738,
+    "types": [
+      "bug",
+      "electric"
+    ]
+  },
+  "오기지게": {
+    "speed": 63,
+    "national_no": 739,
+    "types": [
+      "fighting"
+    ]
+  },
+  "모단단게": {
+    "speed": 43,
+    "national_no": 740,
+    "types": [
+      "fighting",
+      "ice"
+    ],
+    "megas": [
+      {
+        "slug": "crabominable-mega",
+        "ko_name": null,
+        "speed": 33,
+        "types": [
+          "fighting",
+          "ice"
+        ]
+      }
+    ]
+  },
+  "춤추새": {
+    "speed": 93,
+    "national_no": 741,
+    "types": [
+      "fire",
+      "flying"
+    ]
+  },
+  "에블리": {
+    "speed": 84,
+    "national_no": 742,
+    "types": [
+      "bug",
+      "fairy"
+    ]
+  },
+  "에리본": {
+    "speed": 124,
+    "national_no": 743,
+    "types": [
+      "bug",
+      "fairy"
+    ]
+  },
+  "암멍이": {
+    "speed": 60,
+    "national_no": 744,
+    "types": [
+      "rock"
+    ]
+  },
+  "루가루암": {
+    "speed": 112,
+    "national_no": 745,
+    "types": [
+      "rock"
+    ]
+  },
+  "약어리": {
+    "speed": 40,
+    "national_no": 746,
+    "types": [
+      "water"
+    ]
+  },
+  "시마사리": {
+    "speed": 45,
+    "national_no": 747,
+    "types": [
+      "poison",
+      "water"
+    ]
+  },
+  "더시마사리": {
+    "speed": 35,
+    "national_no": 748,
+    "types": [
+      "poison",
+      "water"
+    ]
+  },
+  "머드나기": {
+    "speed": 45,
+    "national_no": 749,
+    "types": [
+      "ground"
+    ]
+  },
+  "만마드": {
+    "speed": 35,
+    "national_no": 750,
+    "types": [
+      "ground"
+    ]
+  },
+  "물거미": {
+    "speed": 27,
+    "national_no": 751,
+    "types": [
+      "water",
+      "bug"
+    ]
+  },
+  "깨비물거미": {
+    "speed": 42,
+    "national_no": 752,
+    "types": [
+      "water",
+      "bug"
+    ]
+  },
+  "짜랑랑": {
+    "speed": 35,
+    "national_no": 753,
+    "types": [
+      "grass"
+    ]
+  },
+  "라란티스": {
+    "speed": 45,
+    "national_no": 754,
+    "types": [
+      "grass"
+    ]
+  },
+  "자마슈": {
+    "speed": 15,
+    "national_no": 755,
+    "types": [
+      "grass",
+      "fairy"
+    ]
+  },
+  "마셰이드": {
+    "speed": 30,
+    "national_no": 756,
+    "types": [
+      "grass",
+      "fairy"
+    ]
+  },
+  "야도뇽": {
+    "speed": 77,
+    "national_no": 757,
+    "types": [
+      "poison",
+      "fire"
+    ]
+  },
+  "염뉴트": {
+    "speed": 117,
+    "national_no": 758,
+    "types": [
+      "poison",
+      "fire"
+    ]
+  },
+  "포곰곰": {
+    "speed": 50,
+    "national_no": 759,
+    "types": [
+      "normal",
+      "fighting"
+    ]
+  },
+  "이븐곰": {
+    "speed": 60,
+    "national_no": 760,
+    "types": [
+      "normal",
+      "fighting"
+    ]
+  },
+  "달콤아": {
+    "speed": 32,
+    "national_no": 761,
+    "types": [
+      "grass"
+    ]
+  },
+  "달무리나": {
+    "speed": 62,
+    "national_no": 762,
+    "types": [
+      "grass"
+    ]
+  },
+  "달코퀸": {
+    "speed": 72,
+    "national_no": 763,
+    "types": [
+      "grass"
+    ]
+  },
+  "큐아링": {
+    "speed": 100,
+    "national_no": 764,
+    "types": [
+      "fairy"
+    ]
+  },
+  "하랑우탄": {
+    "speed": 60,
+    "national_no": 765,
+    "types": [
+      "normal",
+      "psychic"
+    ]
+  },
+  "내던숭이": {
+    "speed": 80,
+    "national_no": 766,
+    "types": [
+      "fighting"
+    ]
+  },
+  "꼬시레": {
+    "speed": 80,
+    "national_no": 767,
+    "types": [
+      "bug",
+      "water"
+    ]
+  },
+  "갑주무사": {
+    "speed": 40,
+    "national_no": 768,
+    "types": [
+      "bug",
+      "water"
+    ],
+    "megas": [
+      {
+        "slug": "golisopod-mega",
+        "ko_name": null,
+        "speed": 40,
+        "types": [
+          "bug",
+          "steel"
+        ]
+      }
+    ]
+  },
+  "모래꿍": {
+    "speed": 15,
+    "national_no": 769,
+    "types": [
+      "ghost",
+      "ground"
+    ]
+  },
+  "모래성이당": {
+    "speed": 35,
+    "national_no": 770,
+    "types": [
+      "ghost",
+      "ground"
+    ]
+  },
+  "해무기": {
+    "speed": 5,
+    "national_no": 771,
+    "types": [
+      "water"
+    ]
+  },
+  "타입:널": {
+    "speed": 59,
+    "national_no": 772,
+    "types": [
+      "normal"
+    ]
+  },
+  "실버디": {
+    "speed": 95,
+    "national_no": 773,
+    "types": [
+      "normal"
+    ]
+  },
+  "메테노": {
+    "speed": 60,
+    "national_no": 774,
+    "types": [
+      "rock",
+      "flying"
+    ]
+  },
+  "자말라": {
+    "speed": 65,
+    "national_no": 775,
+    "types": [
+      "normal"
+    ]
+  },
+  "폭거북스": {
+    "speed": 36,
+    "national_no": 776,
+    "types": [
+      "fire",
+      "dragon"
+    ]
+  },
+  "토게데마루": {
+    "speed": 96,
+    "national_no": 777,
+    "types": [
+      "electric",
+      "steel"
+    ]
+  },
+  "따라큐": {
+    "speed": 96,
+    "national_no": 778,
+    "types": [
+      "ghost",
+      "fairy"
+    ]
+  },
+  "치갈기": {
+    "speed": 92,
+    "national_no": 779,
+    "types": [
+      "water",
+      "psychic"
+    ]
+  },
+  "할비롱": {
+    "speed": 36,
+    "national_no": 780,
+    "types": [
+      "normal",
+      "dragon"
+    ],
+    "megas": [
+      {
+        "slug": "drampa-mega",
+        "ko_name": null,
+        "speed": 36,
+        "types": [
+          "normal",
+          "dragon"
+        ]
+      }
+    ]
+  },
+  "타타륜": {
+    "speed": 40,
+    "national_no": 781,
+    "types": [
+      "ghost",
+      "grass"
+    ]
+  },
+  "짜랑꼬": {
+    "speed": 45,
+    "national_no": 782,
+    "types": [
+      "dragon"
+    ]
+  },
+  "짜랑고우": {
+    "speed": 65,
+    "national_no": 783,
+    "types": [
+      "dragon",
+      "fighting"
+    ]
+  },
+  "짜랑고우거": {
+    "speed": 85,
+    "national_no": 784,
+    "types": [
+      "dragon",
+      "fighting"
+    ]
+  },
+  "카푸꼬꼬꼭": {
+    "speed": 130,
+    "national_no": 785,
+    "types": [
+      "electric",
+      "fairy"
+    ]
+  },
+  "카푸나비나": {
+    "speed": 95,
+    "national_no": 786,
+    "types": [
+      "psychic",
+      "fairy"
+    ]
+  },
+  "카푸브루루": {
+    "speed": 75,
+    "national_no": 787,
+    "types": [
+      "grass",
+      "fairy"
+    ]
+  },
+  "카푸느지느": {
+    "speed": 85,
+    "national_no": 788,
+    "types": [
+      "water",
+      "fairy"
+    ]
+  },
+  "코스모그": {
+    "speed": 37,
+    "national_no": 789,
+    "types": [
+      "psychic"
+    ]
+  },
+  "코스모움": {
+    "speed": 37,
+    "national_no": 790,
+    "types": [
+      "psychic"
+    ]
+  },
+  "솔가레오": {
+    "speed": 97,
+    "national_no": 791,
+    "types": [
+      "psychic",
+      "steel"
+    ]
+  },
+  "루나아라": {
+    "speed": 97,
+    "national_no": 792,
+    "types": [
+      "psychic",
+      "ghost"
+    ]
+  },
+  "텅비드": {
+    "speed": 103,
+    "national_no": 793,
+    "types": [
+      "rock",
+      "poison"
+    ]
+  },
+  "매시붕": {
+    "speed": 79,
+    "national_no": 794,
+    "types": [
+      "bug",
+      "fighting"
+    ]
+  },
+  "페로코체": {
+    "speed": 151,
+    "national_no": 795,
+    "types": [
+      "bug",
+      "fighting"
+    ]
+  },
+  "전수목": {
+    "speed": 83,
+    "national_no": 796,
+    "types": [
+      "electric"
+    ]
+  },
+  "철화구야": {
+    "speed": 61,
+    "national_no": 797,
+    "types": [
+      "steel",
+      "flying"
+    ]
+  },
+  "종이신도": {
+    "speed": 109,
+    "national_no": 798,
+    "types": [
+      "grass",
+      "steel"
+    ]
+  },
+  "악식킹": {
+    "speed": 43,
+    "national_no": 799,
+    "types": [
+      "dark",
+      "dragon"
+    ]
+  },
+  "네크로즈마": {
+    "speed": 79,
+    "national_no": 800,
+    "types": [
+      "psychic"
+    ]
+  },
+  "마기아나": {
+    "speed": 65,
+    "national_no": 801,
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "megas": [
+      {
+        "slug": "magearna-mega",
+        "ko_name": null,
+        "speed": 95,
+        "types": [
+          "steel",
+          "fairy"
+        ]
+      },
+      {
+        "slug": "magearna-original-mega",
+        "ko_name": null,
+        "speed": 95,
+        "types": [
+          "steel",
+          "fairy"
+        ]
+      }
+    ]
+  },
+  "마샤도": {
+    "speed": 125,
+    "national_no": 802,
+    "types": [
+      "fighting",
+      "ghost"
+    ]
+  },
+  "베베놈": {
+    "speed": 73,
+    "national_no": 803,
+    "types": [
+      "poison"
+    ]
+  },
+  "아고용": {
+    "speed": 121,
+    "national_no": 804,
+    "types": [
+      "poison",
+      "dragon"
+    ]
+  },
+  "차곡차곡": {
+    "speed": 13,
+    "national_no": 805,
+    "types": [
+      "rock",
+      "steel"
+    ]
+  },
+  "두파팡": {
+    "speed": 107,
+    "national_no": 806,
+    "types": [
+      "fire",
+      "ghost"
+    ]
+  },
+  "제라오라": {
+    "speed": 143,
+    "national_no": 807,
+    "types": [
+      "electric"
+    ],
+    "megas": [
+      {
+        "slug": "zeraora-mega",
+        "ko_name": null,
+        "speed": 153,
+        "types": [
+          "electric"
+        ]
+      }
+    ]
+  },
+  "멜탄": {
+    "speed": 34,
+    "national_no": 808,
+    "types": [
+      "steel"
+    ]
+  },
+  "멜메탈": {
+    "speed": 34,
+    "national_no": 809,
+    "types": [
+      "steel"
+    ]
+  },
+  "흥나숭": {
+    "speed": 65,
+    "national_no": 810,
+    "types": [
+      "grass"
+    ]
+  },
+  "채키몽": {
+    "speed": 80,
+    "national_no": 811,
+    "types": [
+      "grass"
+    ]
+  },
+  "고릴타": {
+    "speed": 85,
+    "national_no": 812,
+    "types": [
+      "grass"
+    ]
+  },
+  "염버니": {
+    "speed": 69,
+    "national_no": 813,
+    "types": [
+      "fire"
+    ]
+  },
+  "래비풋": {
+    "speed": 94,
+    "national_no": 814,
+    "types": [
+      "fire"
+    ]
+  },
+  "에이스번": {
+    "speed": 119,
+    "national_no": 815,
+    "types": [
+      "fire"
+    ]
+  },
+  "울머기": {
+    "speed": 70,
+    "national_no": 816,
+    "types": [
+      "water"
+    ]
+  },
+  "누겔레온": {
+    "speed": 90,
+    "national_no": 817,
+    "types": [
+      "water"
+    ]
+  },
+  "인텔리레온": {
+    "speed": 120,
+    "national_no": 818,
+    "types": [
+      "water"
+    ]
+  },
+  "탐리스": {
+    "speed": 25,
+    "national_no": 819,
+    "types": [
+      "normal"
+    ]
+  },
+  "요씽리스": {
+    "speed": 20,
+    "national_no": 820,
+    "types": [
+      "normal"
+    ]
+  },
+  "파라꼬": {
+    "speed": 57,
+    "national_no": 821,
+    "types": [
+      "flying"
+    ]
+  },
+  "파크로우": {
+    "speed": 77,
+    "national_no": 822,
+    "types": [
+      "flying"
+    ]
+  },
+  "아머까오": {
+    "speed": 67,
+    "national_no": 823,
+    "types": [
+      "flying",
+      "steel"
+    ]
+  },
+  "두루지벌레": {
+    "speed": 45,
+    "national_no": 824,
+    "types": [
+      "bug"
+    ]
+  },
+  "레돔벌레": {
+    "speed": 30,
+    "national_no": 825,
+    "types": [
+      "bug",
+      "psychic"
+    ]
+  },
+  "이올브": {
+    "speed": 90,
+    "national_no": 826,
+    "types": [
+      "bug",
+      "psychic"
+    ]
+  },
+  "훔처우": {
+    "speed": 50,
+    "national_no": 827,
+    "types": [
+      "dark"
+    ]
+  },
+  "폭슬라이": {
+    "speed": 90,
+    "national_no": 828,
+    "types": [
+      "dark"
+    ]
+  },
+  "꼬모카": {
+    "speed": 10,
+    "national_no": 829,
+    "types": [
+      "grass"
+    ]
+  },
+  "백솜모카": {
+    "speed": 60,
+    "national_no": 830,
+    "types": [
+      "grass"
+    ]
+  },
+  "우르": {
+    "speed": 48,
+    "national_no": 831,
+    "types": [
+      "normal"
+    ]
+  },
+  "배우르": {
+    "speed": 88,
+    "national_no": 832,
+    "types": [
+      "normal"
+    ]
+  },
+  "깨물부기": {
+    "speed": 44,
+    "national_no": 833,
+    "types": [
+      "water"
+    ]
+  },
+  "갈가부기": {
+    "speed": 74,
+    "national_no": 834,
+    "types": [
+      "water",
+      "rock"
+    ]
+  },
+  "멍파치": {
+    "speed": 26,
+    "national_no": 835,
+    "types": [
+      "electric"
+    ]
+  },
+  "펄스멍": {
+    "speed": 121,
+    "national_no": 836,
+    "types": [
+      "electric"
+    ]
+  },
+  "탄동": {
+    "speed": 30,
+    "national_no": 837,
+    "types": [
+      "rock"
+    ]
+  },
+  "탄차곤": {
+    "speed": 50,
+    "national_no": 838,
+    "types": [
+      "rock",
+      "fire"
+    ]
+  },
+  "석탄산": {
+    "speed": 30,
+    "national_no": 839,
+    "types": [
+      "rock",
+      "fire"
+    ]
+  },
+  "과사삭벌레": {
+    "speed": 20,
+    "national_no": 840,
+    "types": [
+      "grass",
+      "dragon"
+    ]
+  },
+  "애프룡": {
+    "speed": 70,
+    "national_no": 841,
+    "types": [
+      "grass",
+      "dragon"
+    ]
+  },
+  "단지래플": {
+    "speed": 30,
+    "national_no": 842,
+    "types": [
+      "grass",
+      "dragon"
+    ]
+  },
+  "모래뱀": {
+    "speed": 46,
+    "national_no": 843,
+    "types": [
+      "ground"
+    ]
+  },
+  "사다이사": {
+    "speed": 71,
+    "national_no": 844,
+    "types": [
+      "ground"
+    ]
+  },
+  "윽우지": {
+    "speed": 85,
+    "national_no": 845,
+    "types": [
+      "flying",
+      "water"
+    ]
+  },
+  "찌로꼬치": {
+    "speed": 66,
+    "national_no": 846,
+    "types": [
+      "water"
+    ]
+  },
+  "꼬치조": {
+    "speed": 136,
+    "national_no": 847,
+    "types": [
+      "water"
+    ]
+  },
+  "일레즌": {
+    "speed": 40,
+    "national_no": 848,
+    "types": [
+      "electric",
+      "poison"
+    ]
+  },
+  "스트린더": {
+    "speed": 75,
+    "national_no": 849,
+    "types": [
+      "electric",
+      "poison"
+    ]
+  },
+  "태우지네": {
+    "speed": 45,
+    "national_no": 850,
+    "types": [
+      "fire",
+      "bug"
+    ]
+  },
+  "다태우지네": {
+    "speed": 65,
+    "national_no": 851,
+    "types": [
+      "fire",
+      "bug"
+    ]
+  },
+  "때때무노": {
+    "speed": 32,
+    "national_no": 852,
+    "types": [
+      "fighting"
+    ]
+  },
+  "케오퍼스": {
+    "speed": 42,
+    "national_no": 853,
+    "types": [
+      "fighting"
+    ]
+  },
+  "데인차": {
+    "speed": 50,
+    "national_no": 854,
+    "types": [
+      "ghost"
+    ]
+  },
+  "포트데스": {
+    "speed": 70,
+    "national_no": 855,
+    "types": [
+      "ghost"
+    ]
+  },
+  "몸지브림": {
+    "speed": 39,
+    "national_no": 856,
+    "types": [
+      "psychic"
+    ]
+  },
+  "손지브림": {
+    "speed": 49,
+    "national_no": 857,
+    "types": [
+      "psychic"
+    ]
+  },
+  "브리무음": {
+    "speed": 29,
+    "national_no": 858,
+    "types": [
+      "psychic",
+      "fairy"
+    ]
+  },
+  "메롱꿍": {
+    "speed": 50,
+    "national_no": 859,
+    "types": [
+      "dark",
+      "fairy"
+    ]
+  },
+  "쏘겨모": {
+    "speed": 70,
+    "national_no": 860,
+    "types": [
+      "dark",
+      "fairy"
+    ]
+  },
+  "오롱털": {
+    "speed": 60,
+    "national_no": 861,
+    "types": [
+      "dark",
+      "fairy"
+    ]
+  },
+  "가로막구리": {
+    "speed": 95,
+    "national_no": 862,
+    "types": [
+      "dark",
+      "normal"
+    ]
+  },
+  "나이킹": {
+    "speed": 50,
+    "national_no": 863,
+    "types": [
+      "steel"
+    ]
+  },
+  "산호르곤": {
+    "speed": 30,
+    "national_no": 864,
+    "types": [
+      "ghost"
+    ]
+  },
+  "창파나이트": {
+    "speed": 65,
+    "national_no": 865,
+    "types": [
+      "fighting"
+    ]
+  },
+  "마임꽁꽁": {
+    "speed": 70,
+    "national_no": 866,
+    "types": [
+      "ice",
+      "psychic"
+    ]
+  },
+  "데스판": {
+    "speed": 30,
+    "national_no": 867,
+    "types": [
+      "ground",
+      "ghost"
+    ]
+  },
+  "마빌크": {
+    "speed": 34,
+    "national_no": 868,
+    "types": [
+      "fairy"
+    ]
+  },
+  "마휘핑": {
+    "speed": 64,
+    "national_no": 869,
+    "types": [
+      "fairy"
+    ]
+  },
+  "대여르": {
+    "speed": 75,
+    "national_no": 870,
+    "types": [
+      "fighting"
+    ],
+    "megas": [
+      {
+        "slug": "falinks-mega",
+        "ko_name": null,
+        "speed": 100,
+        "types": [
+          "fighting"
+        ]
+      }
+    ]
+  },
+  "찌르성게": {
+    "speed": 15,
+    "national_no": 871,
+    "types": [
+      "electric"
+    ]
+  },
+  "누니머기": {
+    "speed": 20,
+    "national_no": 872,
+    "types": [
+      "ice",
+      "bug"
+    ]
+  },
+  "모스노우": {
+    "speed": 65,
+    "national_no": 873,
+    "types": [
+      "ice",
+      "bug"
+    ]
+  },
+  "돌헨진": {
+    "speed": 70,
+    "national_no": 874,
+    "types": [
+      "rock"
+    ]
+  },
+  "빙큐보": {
+    "speed": 50,
+    "national_no": 875,
+    "types": [
+      "ice"
+    ]
+  },
+  "에써르": {
+    "speed": 95,
+    "national_no": 876,
+    "types": [
+      "psychic",
+      "normal"
+    ]
+  },
+  "모르페코": {
+    "speed": 97,
+    "national_no": 877,
+    "types": [
+      "electric",
+      "dark"
+    ]
+  },
+  "끼리동": {
+    "speed": 40,
+    "national_no": 878,
+    "types": [
+      "steel"
+    ]
+  },
+  "대왕끼리동": {
+    "speed": 30,
+    "national_no": 879,
+    "types": [
+      "steel"
+    ]
+  },
+  "파치래곤": {
+    "speed": 75,
+    "national_no": 880,
+    "types": [
+      "electric",
+      "dragon"
+    ]
+  },
+  "파치르돈": {
+    "speed": 55,
+    "national_no": 881,
+    "types": [
+      "electric",
+      "ice"
+    ]
+  },
+  "어래곤": {
+    "speed": 75,
+    "national_no": 882,
+    "types": [
+      "water",
+      "dragon"
+    ]
+  },
+  "어치르돈": {
+    "speed": 55,
+    "national_no": 883,
+    "types": [
+      "water",
+      "ice"
+    ]
+  },
+  "두랄루돈": {
+    "speed": 85,
+    "national_no": 884,
+    "types": [
+      "steel",
+      "dragon"
+    ]
+  },
+  "드라꼰": {
+    "speed": 82,
+    "national_no": 885,
+    "types": [
+      "dragon",
+      "ghost"
+    ]
+  },
+  "드래런치": {
+    "speed": 102,
+    "national_no": 886,
+    "types": [
+      "dragon",
+      "ghost"
+    ]
+  },
+  "드래펄트": {
+    "speed": 142,
+    "national_no": 887,
+    "types": [
+      "dragon",
+      "ghost"
+    ]
+  },
+  "자시안": {
+    "speed": 138,
+    "national_no": 888,
+    "types": [
+      "fairy"
+    ]
+  },
+  "자마젠타": {
+    "speed": 138,
+    "national_no": 889,
+    "types": [
+      "fighting"
+    ]
+  },
+  "무한다이노": {
+    "speed": 130,
+    "national_no": 890,
+    "types": [
+      "poison",
+      "dragon"
+    ]
+  },
+  "치고마": {
+    "speed": 72,
+    "national_no": 891,
+    "types": [
+      "fighting"
+    ]
+  },
+  "우라오스": {
+    "speed": 97,
+    "national_no": 892,
+    "types": [
+      "fighting",
+      "dark"
+    ]
+  },
+  "자루도": {
+    "speed": 105,
+    "national_no": 893,
+    "types": [
+      "dark",
+      "grass"
+    ]
+  },
+  "레지에레키": {
+    "speed": 200,
+    "national_no": 894,
+    "types": [
+      "electric"
+    ]
+  },
+  "레지드래고": {
+    "speed": 80,
+    "national_no": 895,
+    "types": [
+      "dragon"
+    ]
+  },
+  "블리자포스": {
+    "speed": 30,
+    "national_no": 896,
+    "types": [
+      "ice"
+    ]
+  },
+  "레이스포스": {
+    "speed": 130,
+    "national_no": 897,
+    "types": [
+      "ghost"
+    ]
+  },
+  "버드렉스": {
+    "speed": 80,
+    "national_no": 898,
+    "types": [
+      "psychic",
+      "grass"
+    ]
+  },
+  "신비록": {
+    "speed": 65,
+    "national_no": 899,
+    "types": [
+      "normal",
+      "psychic"
+    ]
+  },
+  "사마자르": {
+    "speed": 85,
+    "national_no": 900,
+    "types": [
+      "bug",
+      "rock"
+    ]
+  },
+  "다투곰": {
+    "speed": 50,
+    "national_no": 901,
+    "types": [
+      "ground",
+      "normal"
+    ]
+  },
+  "대쓰여너": {
+    "speed": 78,
+    "national_no": 902,
+    "types": [
+      "water",
+      "ghost"
+    ]
+  },
+  "포푸니크": {
+    "speed": 120,
+    "national_no": 903,
+    "types": [
+      "fighting",
+      "poison"
+    ]
+  },
+  "장침바루": {
+    "speed": 85,
+    "national_no": 904,
+    "types": [
+      "dark",
+      "poison"
+    ]
+  },
+  "러브로스": {
+    "speed": 106,
+    "national_no": 905,
+    "types": [
+      "fairy",
+      "flying"
+    ]
+  },
+  "나오하": {
+    "speed": 65,
+    "national_no": 906,
+    "types": [
+      "grass"
+    ]
+  },
+  "나로테": {
+    "speed": 83,
+    "national_no": 907,
+    "types": [
+      "grass"
+    ]
+  },
+  "마스카나": {
+    "speed": 123,
+    "national_no": 908,
+    "types": [
+      "grass",
+      "dark"
+    ]
+  },
+  "뜨아거": {
+    "speed": 36,
+    "national_no": 909,
+    "types": [
+      "fire"
+    ]
+  },
+  "악뜨거": {
+    "speed": 49,
+    "national_no": 910,
+    "types": [
+      "fire"
+    ]
+  },
+  "라우드본": {
+    "speed": 66,
+    "national_no": 911,
+    "types": [
+      "fire",
+      "ghost"
+    ]
+  },
+  "꾸왁스": {
+    "speed": 50,
+    "national_no": 912,
+    "types": [
+      "water"
+    ]
+  },
+  "아꾸왁": {
+    "speed": 65,
+    "national_no": 913,
+    "types": [
+      "water"
+    ]
+  },
+  "웨이니발": {
+    "speed": 85,
+    "national_no": 914,
+    "types": [
+      "water",
+      "fighting"
+    ]
+  },
+  "맛보돈": {
+    "speed": 35,
+    "national_no": 915,
+    "types": [
+      "normal"
+    ]
+  },
+  "퍼퓨돈": {
+    "speed": 65,
+    "national_no": 916,
+    "types": [
+      "normal"
+    ]
+  },
+  "타랜툴라": {
+    "speed": 20,
+    "national_no": 917,
+    "types": [
+      "bug"
+    ]
+  },
+  "트래피더": {
+    "speed": 35,
+    "national_no": 918,
+    "types": [
+      "bug"
+    ]
+  },
+  "콩알뚜기": {
+    "speed": 45,
+    "national_no": 919,
+    "types": [
+      "bug"
+    ]
+  },
+  "엑스레그": {
+    "speed": 92,
+    "national_no": 920,
+    "types": [
+      "bug",
+      "dark"
+    ]
+  },
+  "빠모": {
+    "speed": 60,
+    "national_no": 921,
+    "types": [
+      "electric"
+    ]
+  },
+  "빠모트": {
+    "speed": 85,
+    "national_no": 922,
+    "types": [
+      "electric",
+      "fighting"
+    ]
+  },
+  "빠르모트": {
+    "speed": 105,
+    "national_no": 923,
+    "types": [
+      "electric",
+      "fighting"
+    ]
+  },
+  "두리쥐": {
+    "speed": 75,
+    "national_no": 924,
+    "types": [
+      "normal"
+    ]
+  },
+  "파밀리쥐": {
+    "speed": 111,
+    "national_no": 925,
+    "types": [
+      "normal"
+    ]
+  },
+  "쫀도기": {
+    "speed": 65,
+    "national_no": 926,
+    "types": [
+      "fairy"
+    ]
+  },
+  "바우첼": {
+    "speed": 95,
+    "national_no": 927,
+    "types": [
+      "fairy"
+    ]
+  },
+  "미니브": {
+    "speed": 30,
+    "national_no": 928,
+    "types": [
+      "grass",
+      "normal"
+    ]
+  },
+  "올리뇨": {
+    "speed": 33,
+    "national_no": 929,
+    "types": [
+      "grass",
+      "normal"
+    ]
+  },
+  "올리르바": {
+    "speed": 39,
+    "national_no": 930,
+    "types": [
+      "grass",
+      "normal"
+    ]
+  },
+  "시비꼬": {
+    "speed": 92,
+    "national_no": 931,
+    "types": [
+      "normal",
+      "flying"
+    ]
+  },
+  "베베솔트": {
+    "speed": 25,
+    "national_no": 932,
+    "types": [
+      "rock"
+    ]
+  },
+  "스태솔트": {
+    "speed": 35,
+    "national_no": 933,
+    "types": [
+      "rock"
+    ]
+  },
+  "콜로솔트": {
+    "speed": 35,
+    "national_no": 934,
+    "types": [
+      "rock"
+    ]
+  },
+  "카르본": {
+    "speed": 35,
+    "national_no": 935,
+    "types": [
+      "fire"
+    ]
+  },
+  "카디나르마": {
+    "speed": 75,
+    "national_no": 936,
+    "types": [
+      "fire",
+      "psychic"
+    ]
+  },
+  "파라블레이즈": {
+    "speed": 85,
+    "national_no": 937,
+    "types": [
+      "fire",
+      "ghost"
+    ]
+  },
+  "빈나두": {
+    "speed": 45,
+    "national_no": 938,
+    "types": [
+      "electric"
+    ]
+  },
+  "찌리배리": {
+    "speed": 45,
+    "national_no": 939,
+    "types": [
+      "electric"
+    ]
+  },
+  "찌리비": {
+    "speed": 70,
+    "national_no": 940,
+    "types": [
+      "electric",
+      "flying"
+    ]
+  },
+  "찌리비크": {
+    "speed": 125,
+    "national_no": 941,
+    "types": [
+      "electric",
+      "flying"
+    ]
+  },
+  "오라티프": {
+    "speed": 51,
+    "national_no": 942,
+    "types": [
+      "dark"
+    ]
+  },
+  "마피티프": {
+    "speed": 85,
+    "national_no": 943,
+    "types": [
+      "dark"
+    ]
+  },
+  "땃쭈르": {
+    "speed": 75,
+    "national_no": 944,
+    "types": [
+      "poison",
+      "normal"
+    ]
+  },
+  "태깅구르": {
+    "speed": 110,
+    "national_no": 945,
+    "types": [
+      "poison",
+      "normal"
+    ]
+  },
+  "그푸리": {
+    "speed": 60,
+    "national_no": 946,
+    "types": [
+      "grass",
+      "ghost"
+    ]
+  },
+  "공푸리": {
+    "speed": 90,
+    "national_no": 947,
+    "types": [
+      "grass",
+      "ghost"
+    ]
+  },
+  "들눈해": {
+    "speed": 70,
+    "national_no": 948,
+    "types": [
+      "ground",
+      "grass"
+    ]
+  },
+  "육파리": {
+    "speed": 100,
+    "national_no": 949,
+    "types": [
+      "ground",
+      "grass"
+    ]
+  },
+  "절벼게": {
+    "speed": 75,
+    "national_no": 950,
+    "types": [
+      "rock"
+    ]
+  },
+  "캡싸이": {
+    "speed": 50,
+    "national_no": 951,
+    "types": [
+      "grass"
+    ]
+  },
+  "스코빌런": {
+    "speed": 75,
+    "national_no": 952,
+    "types": [
+      "grass",
+      "fire"
+    ],
+    "megas": [
+      {
+        "slug": "scovillain-mega",
+        "ko_name": null,
+        "speed": 75,
+        "types": [
+          "grass",
+          "fire"
+        ]
+      }
+    ]
+  },
+  "구르데": {
+    "speed": 30,
+    "national_no": 953,
+    "types": [
+      "bug"
+    ]
+  },
+  "베라카스": {
+    "speed": 45,
+    "national_no": 954,
+    "types": [
+      "bug",
+      "psychic"
+    ]
+  },
+  "하느라기": {
+    "speed": 75,
+    "national_no": 955,
+    "types": [
+      "psychic"
+    ]
+  },
+  "클레스퍼트라": {
+    "speed": 105,
+    "national_no": 956,
+    "types": [
+      "psychic"
+    ]
+  },
+  "어리짱": {
+    "speed": 58,
+    "national_no": 957,
+    "types": [
+      "fairy",
+      "steel"
+    ]
+  },
+  "벼리짱": {
+    "speed": 78,
+    "national_no": 958,
+    "types": [
+      "fairy",
+      "steel"
+    ]
+  },
+  "두드리짱": {
+    "speed": 94,
+    "national_no": 959,
+    "types": [
+      "fairy",
+      "steel"
+    ]
+  },
+  "바다그다": {
+    "speed": 95,
+    "national_no": 960,
+    "types": [
+      "water"
+    ]
+  },
+  "바닥트리오": {
+    "speed": 120,
+    "national_no": 961,
+    "types": [
+      "water"
+    ]
+  },
+  "떨구새": {
+    "speed": 82,
+    "national_no": 962,
+    "types": [
+      "flying",
+      "dark"
+    ]
+  },
+  "맨돌핀": {
+    "speed": 75,
+    "national_no": 963,
+    "types": [
+      "water"
+    ]
+  },
+  "돌핀맨": {
+    "speed": 100,
+    "national_no": 964,
+    "types": [
+      "water"
+    ]
+  },
+  "부르롱": {
+    "speed": 47,
+    "national_no": 965,
+    "types": [
+      "steel",
+      "poison"
+    ]
+  },
+  "부르르룸": {
+    "speed": 90,
+    "national_no": 966,
+    "types": [
+      "steel",
+      "poison"
+    ]
+  },
+  "모토마": {
+    "speed": 121,
+    "national_no": 967,
+    "types": [
+      "dragon",
+      "normal"
+    ]
+  },
+  "꿈트렁": {
+    "speed": 65,
+    "national_no": 968,
+    "types": [
+      "steel"
+    ]
+  },
+  "초롱순": {
+    "speed": 60,
+    "national_no": 969,
+    "types": [
+      "rock",
+      "poison"
+    ]
+  },
+  "킬라플로르": {
+    "speed": 86,
+    "national_no": 970,
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "megas": [
+      {
+        "slug": "glimmora-mega",
+        "ko_name": null,
+        "speed": 101,
+        "types": [
+          "rock",
+          "poison"
+        ]
+      }
+    ]
+  },
+  "망망이": {
+    "speed": 34,
+    "national_no": 971,
+    "types": [
+      "ghost"
+    ]
+  },
+  "묘두기": {
+    "speed": 68,
+    "national_no": 972,
+    "types": [
+      "ghost"
+    ]
+  },
+  "꼬이밍고": {
+    "speed": 90,
+    "national_no": 973,
+    "types": [
+      "flying",
+      "fighting"
+    ]
+  },
+  "터벅고래": {
+    "speed": 43,
+    "national_no": 974,
+    "types": [
+      "ice"
+    ]
+  },
+  "우락고래": {
+    "speed": 73,
+    "national_no": 975,
+    "types": [
+      "ice"
+    ]
+  },
+  "가비루사": {
+    "speed": 70,
+    "national_no": 976,
+    "types": [
+      "water",
+      "psychic"
+    ]
+  },
+  "어써러셔": {
+    "speed": 35,
+    "national_no": 977,
+    "types": [
+      "water"
+    ]
+  },
+  "싸리용": {
+    "speed": 82,
+    "national_no": 978,
+    "types": [
+      "dragon",
+      "water"
+    ],
+    "megas": [
+      {
+        "slug": "tatsugiri-curly-mega",
+        "ko_name": null,
+        "speed": 92,
+        "types": [
+          "dragon",
+          "water"
+        ]
+      },
+      {
+        "slug": "tatsugiri-droopy-mega",
+        "ko_name": null,
+        "speed": 92,
+        "types": [
+          "dragon",
+          "water"
+        ]
+      },
+      {
+        "slug": "tatsugiri-stretchy-mega",
+        "ko_name": null,
+        "speed": 92,
+        "types": [
+          "dragon",
+          "water"
+        ]
+      }
+    ]
+  },
+  "저승갓숭": {
+    "speed": 90,
+    "national_no": 979,
+    "types": [
+      "fighting",
+      "ghost"
+    ]
+  },
+  "토오": {
+    "speed": 20,
+    "national_no": 980,
+    "types": [
+      "poison",
+      "ground"
+    ]
+  },
+  "키키링": {
+    "speed": 60,
+    "national_no": 981,
+    "types": [
+      "normal",
+      "psychic"
+    ]
+  },
+  "노고고치": {
+    "speed": 55,
+    "national_no": 982,
+    "types": [
+      "normal"
+    ]
+  },
+  "대도각참": {
+    "speed": 50,
+    "national_no": 983,
+    "types": [
+      "dark",
+      "steel"
+    ]
+  },
+  "위대한엄니": {
+    "speed": 87,
+    "national_no": 984,
+    "types": [
+      "ground",
+      "fighting"
+    ]
+  },
+  "우렁찬꼬리": {
+    "speed": 111,
+    "national_no": 985,
+    "types": [
+      "fairy",
+      "psychic"
+    ]
+  },
+  "사나운버섯": {
+    "speed": 55,
+    "national_no": 986,
+    "types": [
+      "grass",
+      "dark"
+    ]
+  },
+  "날개치는머리": {
+    "speed": 135,
+    "national_no": 987,
+    "types": [
+      "ghost",
+      "fairy"
+    ]
+  },
+  "땅을기는날개": {
+    "speed": 81,
+    "national_no": 988,
+    "types": [
+      "bug",
+      "fighting"
+    ]
+  },
+  "모래털가죽": {
+    "speed": 101,
+    "national_no": 989,
+    "types": [
+      "electric",
+      "ground"
+    ]
+  },
+  "무쇠바퀴": {
+    "speed": 106,
+    "national_no": 990,
+    "types": [
+      "ground",
+      "steel"
+    ]
+  },
+  "무쇠보따리": {
+    "speed": 136,
+    "national_no": 991,
+    "types": [
+      "ice",
+      "water"
+    ]
+  },
+  "무쇠손": {
+    "speed": 50,
+    "national_no": 992,
+    "types": [
+      "fighting",
+      "electric"
+    ]
+  },
+  "무쇠머리": {
+    "speed": 108,
+    "national_no": 993,
+    "types": [
+      "dark",
+      "flying"
+    ]
+  },
+  "무쇠독나방": {
+    "speed": 110,
+    "national_no": 994,
+    "types": [
+      "fire",
+      "poison"
+    ]
+  },
+  "무쇠가시": {
+    "speed": 72,
+    "national_no": 995,
+    "types": [
+      "rock",
+      "electric"
+    ]
+  },
+  "드니차": {
+    "speed": 55,
+    "national_no": 996,
+    "types": [
+      "dragon",
+      "ice"
+    ]
+  },
+  "드니꽁": {
+    "speed": 62,
+    "national_no": 997,
+    "types": [
+      "dragon",
+      "ice"
+    ]
+  },
+  "드닐레이브": {
+    "speed": 87,
+    "national_no": 998,
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "megas": [
+      {
+        "slug": "baxcalibur-mega",
+        "ko_name": null,
+        "speed": 87,
+        "types": [
+          "dragon",
+          "ice"
+        ]
+      }
+    ]
+  },
+  "모으령": {
+    "speed": 10,
+    "national_no": 999,
+    "types": [
+      "ghost"
+    ]
+  },
+  "타부자고": {
+    "speed": 84,
+    "national_no": 1000,
+    "types": [
+      "steel",
+      "ghost"
+    ]
+  },
+  "총지엔": {
+    "speed": 70,
+    "national_no": 1001,
+    "types": [
+      "dark",
+      "grass"
+    ]
+  },
+  "파오젠": {
+    "speed": 135,
+    "national_no": 1002,
+    "types": [
+      "dark",
+      "ice"
+    ]
+  },
+  "딩루": {
+    "speed": 45,
+    "national_no": 1003,
+    "types": [
+      "dark",
+      "ground"
+    ]
+  },
+  "위유이": {
+    "speed": 100,
+    "national_no": 1004,
+    "types": [
+      "dark",
+      "fire"
+    ]
+  },
+  "고동치는달": {
+    "speed": 119,
+    "national_no": 1005,
+    "types": [
+      "dragon",
+      "dark"
+    ]
+  },
+  "무쇠무인": {
+    "speed": 116,
+    "national_no": 1006,
+    "types": [
+      "fairy",
+      "fighting"
+    ]
+  },
+  "코라이돈": {
+    "speed": 135,
+    "national_no": 1007,
+    "types": [
+      "fighting",
+      "dragon"
+    ]
+  },
+  "미라이돈": {
+    "speed": 135,
+    "national_no": 1008,
+    "types": [
+      "electric",
+      "dragon"
+    ]
+  },
+  "굽이치는물결": {
+    "speed": 109,
+    "national_no": 1009,
+    "types": [
+      "water",
+      "dragon"
+    ]
+  },
+  "무쇠잎새": {
+    "speed": 104,
+    "national_no": 1010,
+    "types": [
+      "grass",
+      "psychic"
+    ]
+  },
+  "과미르": {
+    "speed": 40,
+    "national_no": 1011,
+    "types": [
+      "grass",
+      "dragon"
+    ]
+  },
+  "차데스": {
+    "speed": 50,
+    "national_no": 1012,
+    "types": [
+      "grass",
+      "ghost"
+    ]
+  },
+  "그우린차": {
+    "speed": 70,
+    "national_no": 1013,
+    "types": [
+      "grass",
+      "ghost"
+    ]
+  },
+  "조타구": {
+    "speed": 80,
+    "national_no": 1014,
+    "types": [
+      "poison",
+      "fighting"
+    ]
+  },
+  "이야후": {
+    "speed": 106,
+    "national_no": 1015,
+    "types": [
+      "poison",
+      "psychic"
+    ]
+  },
+  "기로치": {
+    "speed": 99,
+    "national_no": 1016,
+    "types": [
+      "poison",
+      "fairy"
+    ]
+  },
+  "오거폰": {
+    "speed": 110,
+    "national_no": 1017,
+    "types": [
+      "grass"
+    ]
+  },
+  "브리두라스": {
+    "speed": 85,
+    "national_no": 1018,
+    "types": [
+      "steel",
+      "dragon"
+    ]
+  },
+  "과미드라": {
+    "speed": 44,
+    "national_no": 1019,
+    "types": [
+      "grass",
+      "dragon"
+    ]
+  },
+  "꿰뚫는화염": {
+    "speed": 91,
+    "national_no": 1020,
+    "types": [
+      "fire",
+      "dragon"
+    ]
+  },
+  "날뛰는우레": {
+    "speed": 75,
+    "national_no": 1021,
+    "types": [
+      "electric",
+      "dragon"
+    ]
+  },
+  "무쇠암석": {
+    "speed": 124,
+    "national_no": 1022,
+    "types": [
+      "rock",
+      "psychic"
+    ]
+  },
+  "무쇠감투": {
+    "speed": 98,
+    "national_no": 1023,
+    "types": [
+      "steel",
+      "psychic"
+    ]
+  },
+  "테라파고스": {
+    "speed": 60,
+    "national_no": 1024,
+    "types": [
+      "normal"
+    ]
+  },
+  "복숭악동": {
+    "speed": 88,
+    "national_no": 1025,
+    "types": [
+      "poison",
+      "ghost"
+    ]
+  }
 }

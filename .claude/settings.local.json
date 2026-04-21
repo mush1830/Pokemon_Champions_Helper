@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git remote *)",
+      "Bash(git checkout *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(pip install *)",
+      "Bash(python -c \"import torch; print\\('CUDA available:', torch.cuda.is_available\\(\\)\\); print\\('GPU:', torch.cuda.get_device_name\\(0\\) if torch.cuda.is_available\\(\\) else 'None'\\)\")",
+      "Bash(python -c \"import json; d=json.load\\(open\\('data/pokemon_data.json',encoding='utf-8'\\)\\); first=list\\(d.values\\(\\)\\)[0]; print\\(list\\(first.keys\\(\\)\\)\\); print\\(first\\)\")",
+      "Bash(python -c \"import json; d=json.load\\(open\\('data/pokemon_data.json',encoding='utf-8'\\)\\); first=list\\(d.items\\(\\)\\)[0]; print\\(first\\)\")",
+      "WebFetch(domain:pokeapi.co)",
+      "Bash(python -c ' *)"
+    ]
+  }
+}

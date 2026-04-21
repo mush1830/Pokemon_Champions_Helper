@@ -1,46 +1,58 @@
 from typing import Optional
-from rapidfuzz import process, fuzz
+from rapidfuzz.distance import Levenshtein
+
+_INITIALS = "ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ"
+_VOWELS   = "ㅏㅐㅑㅒㅓㅔㅕㅖㅗㅘㅙㅚㅛㅜㅝㅞㅟㅠㅡㅢㅣ"
+_FINALS   = " ㄱㄲㄳㄴㄵㄶㄷㄹㄺㄻㄼㄽㄾㄿㅀㅁㅂㅄㅅㅆㅇㅈㅊㅋㅌㅍㅎ"
+
+
+def _to_jamo(text: str) -> str:
+    out = []
+    for ch in text:
+        code = ord(ch)
+        if 0xAC00 <= code <= 0xD7A3:
+            code -= 0xAC00
+            out.append(_INITIALS[code // 588])
+            out.append(_VOWELS[(code % 588) // 28])
+            f = _FINALS[code % 28]
+            if f != " ":
+                out.append(f)
+        else:
+            out.append(ch)
+    return "".join(out)
+
+
+def _jamo_sim(j1: str, j2: str) -> float:
+    dist = Levenshtein.distance(j1, j2)
+    return 1 - dist / max(len(j1), len(j2), 1)
 
 
 class PokemonMatcher:
     def __init__(self, name_list: list[str]):
         self.name_list = name_list
+        self._jamo_map = {name: _to_jamo(name) for name in name_list}
 
-    def find_best_match(self, raw_text: str, threshold: int = 55) -> Optional[str]:
+    def find_best_match(self, raw_text: str, threshold: float = 0.5) -> Optional[str]:
         if not raw_text or not self.name_list:
             return None
 
-        # Try exact match first
         if raw_text in self.name_list:
             return raw_text
 
-        # Try partial word matches (OCR often includes extra chars)
         for word in raw_text.split():
             if word in self.name_list:
                 return word
 
-        # Fuzzy match over full raw text
-        result = process.extractOne(
-            raw_text,
-            self.name_list,
-            scorer=fuzz.WRatio,
-            score_cutoff=threshold,
-        )
-        if result:
-            return result[0]
+        queries = list(dict.fromkeys([raw_text] + raw_text.split()))
+        jamo_queries = [_to_jamo(q) for q in queries]
 
-        # Fuzzy match word-by-word for better partial recognition
-        best_score = 0
+        best_score = 0.0
         best_name = None
-        for word in raw_text.split():
-            r = process.extractOne(
-                word,
-                self.name_list,
-                scorer=fuzz.WRatio,
-                score_cutoff=threshold,
-            )
-            if r and r[1] > best_score:
-                best_score = r[1]
-                best_name = r[0]
+        for name, jamo_name in self._jamo_map.items():
+            for jq in jamo_queries:
+                score = _jamo_sim(jq, jamo_name)
+                if score >= threshold and score > best_score:
+                    best_score = score
+                    best_name = name
 
         return best_name
