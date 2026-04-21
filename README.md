@@ -45,6 +45,7 @@
      <img width="1910" height="987" alt="스크린샷 2026-04-21 123226" src="https://github.com/user-attachments/assets/41b16793-7003-4dc5-bc2d-c5702f5bfa60" />
 
 6. **Enter** 를 눌러 저장합니다.
+7. 영역을 잘못 그렸으면 바로 재드래그하면 됩니다.
 
 ### 3단계 — 실행
 이후부터는 **`run.bat`** 더블클릭만 하면 됩니다.
